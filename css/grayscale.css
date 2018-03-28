@@ -41,12 +41,12 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #03A9F4;
+  color: #d32f2f;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #0277BD;
+  color: #b71c1c;
 }
 
 #mainNav {
@@ -54,7 +54,7 @@ a:focus, a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: #d32f2f;
 }
 
 #mainNav .navbar-toggler {
@@ -104,7 +104,7 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    background: #d32f2f;
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -218,16 +218,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #03A9F4;
-  border: 1px solid #03A9F4;
+  color: #d32f2f;
+  border: 1px solid #d32f2f;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #03A9F4;
+  border: 1px solid #d32f2f;
   outline: none;
-  background-color: #03A9F4;
+  background-color: #d32f2f;
 }
 
 ul.banner-social-buttons {
