@@ -147,6 +147,7 @@ a:focus, a:hover {
   .masthead {
     height: 100%;
     padding: 0;
+    background: url("../img/intro-bg.jpg") no-repeat bottom center fixed;
   }
   .masthead .intro-body .brand-heading {
     font-size: 100px;
