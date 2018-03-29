@@ -122,12 +122,15 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center fixed;
-  background-color: black;
+  background-image: linear-gradient(to right bottom,
+  rgba(211, 47, 47, 0.5),
+  rgba(211, 47, 47, 0.1)),
+    url("../img/intro-bg.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .masthead .intro-body {
@@ -142,6 +145,7 @@ a:focus, a:hover {
 .masthead .intro-body .intro-text {
   font-size: 18px;
 }
+
 
 @media (min-width: 768px) {
   .masthead {
