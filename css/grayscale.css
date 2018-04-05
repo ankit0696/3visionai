@@ -125,7 +125,7 @@ a:focus, a:hover {
   background-image: linear-gradient(to right bottom,
   rgba(211, 47, 47, 0.5),
   rgba(211, 47, 47, 0.1)),
-    url("../img/intro-bg.jpg");
+    url("../img/intro-bg.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
