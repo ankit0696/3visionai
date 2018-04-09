@@ -136,9 +136,11 @@ a:focus, a:hover {
   text-align: center;
   color: white;
   background-image: linear-gradient(to right bottom,
-  rgba(211, 47, 47, 0.5),
-  rgba(211, 47, 47, 0.1)),
+  rgba(211, 47, 47, 0.7),
+  rgba(211, 47, 47, 0.3)),
     url("../img/intro-bg.png");
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
