@@ -181,8 +181,19 @@ a:focus, a:hover {
   }
 }
 
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 1.6rem;
+}
+
 .btn-circle {
-  font-size: 26px;
+  font-size: 30px;
   width: 55px;
   height: 55px;
   margin-top: 15px;
@@ -242,16 +253,6 @@ a:focus, a:hover {
   }
 }
 
-.btn {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
-  border-radius: 3px;
-  font-size: 1.6rem;
-}
 
 .btn-default {
   color: #d32f2f;
