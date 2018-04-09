@@ -250,6 +250,7 @@ a:focus, a:hover {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 3px;
+  font-size: 1.6rem;
 }
 
 .btn-default {
