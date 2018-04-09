@@ -70,8 +70,8 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 1.4rem;
-  padding: 1.1rem;
+  font-size: 1.8rem;
+  padding: 1.4rem;
   color: white;
   border: 1px solid white;
 }
@@ -131,20 +131,26 @@ a:focus, a:hover {
 .masthead {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100vh;
   padding: 20rem 0;
   text-align: center;
   color: white;
   background-image: linear-gradient(to right bottom,
   rgba(211, 47, 47, 0.7),
-  rgba(211, 47, 47, 0.3)),
-    url("../img/intro-bg.png");
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
+  rgba(211, 47, 47, 0.3));
+
+}
+
+.masthead::after {
+  background: url("../img/intro-bg.png") no-repeat 50% 100%;
+  bottom: 0;
+  content: ' ';
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  height: 166px;
+  right: 0;
+  width: 100%;
   background-attachment: fixed;
 }
 
