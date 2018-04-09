@@ -186,6 +186,10 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
+.about-section {
+  background: rgba(211, 47, 47, 0.1);
+}
+
 .download-section {
   color: white;
   background: url("../img/downloads-bg.jpg") no-repeat center center fixed;
