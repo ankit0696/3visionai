@@ -126,10 +126,10 @@ a:focus, a:hover {
   rgba(211, 47, 47, 0.5),
   rgba(211, 47, 47, 0.1)),
     url("../img/intro-bg.png");
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
   background-attachment: fixed;
 }
 
