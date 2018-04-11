@@ -142,6 +142,23 @@ hr {
 	background-color: #121d1f;
 	border-color: #121d1f;
 }
+
+.btn-white {
+	text-transform: uppercase;
+	color: #eee;
+	background-color: transparent;
+	border-color: #eee;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 16px;
+	border-radius: 0;
+	margin-top: 20px;
+}
+.btn-white:hover, .btn-white:focus, .btn-white.focus, .btn-white:active, .btn-white.active {
+	color: #fff;
+	background-color: #121d1f;
+	border-color: #121d1f;
+}
 /* Header Section */
 .intro {
 	display: table;
@@ -149,14 +166,11 @@ hr {
 	padding: 0;
 	text-align: center;
 	color: #333;
-	background-image: linear-gradient(to right bottom,
-	rgba(227, 242, 253, 0.1),
-	rgba(255, 193, 7, .1)),url(../img/intro-bg.jpg);
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 .section-title.center {
 	padding: 10px 0 40px 0;
@@ -425,4 +439,58 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer a:hover {
 	color: #000;
+}
+
+/* Personal */
+
+.profile {
+	flex-shrink: 0;
+    margin: 0 auto;
+    height: calc(150px + 5vw);
+    width: calc(150px + 5vw);	
+    border: calc(5px + 0.2vw) solid transparent;    
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+    background-image: url(../img/about.jpg), 
+                      linear-gradient(to bottom right,  rgb(0, 128, 255), rgb(0, 139, 238));
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
