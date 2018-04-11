@@ -59,8 +59,8 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+	-webkit-padding: 0;
+	-moz-padding: 0;
 }
 hr {
 	height: 1px;
@@ -149,7 +149,9 @@ hr {
 	padding: 0;
 	text-align: center;
 	color: #333;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	background-image: linear-gradient(to right bottom,
+	rgba(227, 242, 253, 0.7),
+	rgba(33, 150, 243, 0.5)),url(../img/intro-bg.jpg);
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
