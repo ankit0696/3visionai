@@ -150,8 +150,8 @@ hr {
 	text-align: center;
 	color: #333;
 	background-image: linear-gradient(to right bottom,
-	rgba(227, 242, 253, 0.7),
-	rgba(33, 150, 243, 0.5)),url(../img/intro-bg.jpg);
+	rgba(227, 242, 253, 0.5),
+	rgba(255, 193, 7, .5)),url(../img/intro-bg.jpg);
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
