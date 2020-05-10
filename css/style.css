@@ -702,11 +702,13 @@ nav {
 
 .team-card {
   overflow: hidden;
+  margin: auto;
   border-radius: 20px;
   max-width: 250px;
   -webkit-box-shadow: 30px 12px 54px 0px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 30px 12px 54px 0px rgba(0, 0, 0, 0.09);
-  box-shadow: 30px 12px 54px 0px rgba(0, 0, 0, 0.09); }
+  box-shadow: 30px 12px 54px 0px rgba(0, 0, 0, 0.09);
+  margin-bottom: 2rem; }
   .team-card .member-info {
     text-align: center;
     color: #36454f;
@@ -727,7 +729,8 @@ nav {
   flex-direction: column;
   align-items: center;
   height: 25rem;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 2rem; }
   .contact-card img {
     padding: 3rem; }
   .contact-card .tele {
