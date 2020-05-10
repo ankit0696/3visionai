@@ -1,0 +1,156 @@
+@import "mixins";
+@import "base";
+@import "layout";
+@import "component";
+@import "bootstrap-grid";
+@import "animation";
+
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    flex-grow: 1;
+
+
+    .banner-title{
+        font-size: 6rem;
+        font-family: "Proxima-bold",Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 7rem;
+        margin: 1rem auto;
+    }
+
+    .banner-desc{
+        font-family: "Proxima-semi",Arial,sans-serif;
+        font-size: 4.2rem;
+        line-height: 4.3rem;
+        text-align: center;
+        margin-bottom: 5.5rem;
+        text-shadow: 2px 1px 20px #000000;
+        max-width: 70rem;
+
+    }
+}
+
+.vision-intelligence{
+    background-color: $color-white-background;
+    text-align: center;
+}
+
+.features-head{
+    font-size: 3rem;
+    color: $color-black;
+    letter-spacing: 0.1px;
+    text-align: left;
+    font-family: "Proxima-semi",Arial,sans-serif;
+    line-height: 1.2;
+
+}
+
+.features-para {
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: left;
+    color: $color-black;
+    margin: 2.5rem 0 3.5rem 0;
+    max-width: 60rem;
+
+    
+}
+
+.listed{
+    ul{
+        list-style-type: none;
+
+        li{
+            text-decoration: none;
+            text-align: left;
+            font-size: 1.6rem;
+            color: $color-black;
+        }
+    }
+}
+
+.solutions{
+    background-color: $color-white-background;
+    text-align: center;
+}
+
+.partner-logo {
+    text-align: center;
+    img{
+        height: 14rem;
+        margin: 6rem 2.5rem 0 2.5rem;
+    }
+}
+
+.get-started {
+    background-color: $color-white-background;
+    text-align: center;
+}
+
+.footer{
+    img{
+        text-align: left;
+    }
+    .footer-para{
+        text-align: left;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        margin-top: .2rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .footer-social{
+        
+        img{
+            margin-right: 2rem;
+        }
+    }
+
+    .site-links{
+
+        ul{
+            list-style-type: none;
+            text-align: left;
+
+            li{
+                margin: 1.5rem 0;
+
+                a{
+                    color: $color-black;
+                    font-size: 1.4rem;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-family: "Proxima-semi",Arial,sans-serif;
+                    
+                }
+            }
+
+        }
+    }
+
+    .contact-us-container{
+        .contact-text{
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-family: "Proxima-bold",Arial,sans-serif;
+        }
+        .address{
+            max-width: 26rem;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            color: #666;
+            margin: 1.8rem 0 1.3rem 0;
+        }
+        .contact-option{
+            font-family: "Proxima-semi",Arial,sans-serif;
+            font-size: 1.4rem;
+
+        }
+    }
+
+}

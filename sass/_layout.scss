@@ -1,0 +1,73 @@
+.contain{
+    overflow: hidden;
+}
+
+.header-main{
+    height: 90vh;
+    background: linear-gradient(to bottom, rgba(95, 95, 95, 0.5),rgba(94, 94, 94, 0.3)),
+url('../img/header.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    transition: all ease 0.3s;
+    animation: breath 20s ease ;
+    animation-iteration-count: infinite;
+
+    @include respond(phone) {
+        animation: none;
+    }
+
+}
+
+.header-about{
+    display: flex;
+    flex-flow: column;
+    background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+    background-size: 22px 22px;
+
+    .banner-content .banner-desc{
+        margin-top: 20rem;
+        margin-bottom: 9rem;
+        color: $color-white-background;
+        text-shadow: none;
+    }
+}
+
+section{
+    padding: 8rem 0;
+}
+
+.footer{
+    background-color: $color-white-background;
+    text-align: center;
+    padding: 6rem;
+
+
+    .logo-footer{
+        height: 4rem;
+    }
+
+
+    .footer-sec-1{
+        text-align: left;
+    }
+
+    .footer-sec-2{
+        text-align: center;
+    }
+
+    .footer-sec-3{
+        text-align: left;
+    }
+}
+
+
+//company page
+
+section.contact .container{
+    background: #36454f;
+    color: $color-white-background;
+    border-radius: 2rem;
+}
