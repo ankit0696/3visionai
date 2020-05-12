@@ -738,7 +738,8 @@ nav {
     padding: 3rem; }
   .contact-card .tele {
     font-size: 1.8rem;
-    max-width: 25rem; }
+    max-width: 25rem;
+    line-height: 2rem; }
 
 /*!
  * Bootstrap v3.3.7 (https://getbootstrap.com)
