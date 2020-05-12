@@ -565,20 +565,18 @@ nav {
   .menu li.button {
     padding-right: 0; } }
 
-.btn-main {
-  margin: auto; }
-  .btn-main button {
-    background-color: #ffaa34;
-    padding: 10px 25px;
-    border: none;
-    font-size: 1.6rem;
-    font-weight: 500;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: "Proxima"; }
+.btn-main button {
+  background-color: #ffaa34;
+  padding: 10px 25px;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Proxima"; }
 
 .heading-main {
   text-align: center;
