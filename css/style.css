@@ -354,6 +354,9 @@ section.contact .container {
   color: #f9f9f9;
   border-radius: 2rem; }
 
+section.discover {
+  padding-bottom: 0; }
+
 details {
   width: 90%;
   min-height: 5px;
@@ -582,7 +585,8 @@ nav {
   text-align: center;
   font-size: 5rem;
   font-family: "Proxima-extra",Arial,sans-serif;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  margin: auto; }
 
 .para-main {
   font-size: 2rem;
@@ -749,7 +753,7 @@ nav {
   height: 20rem;
   overflow: hidden;
   transition: all 0.3s ease;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -758,9 +762,12 @@ nav {
     margin: auto;
     width: 95%; }
   .discover-card .bold {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
+    color: #0a6cf4;
     font-family: "Proxima-bold",Arial,sans-serif; }
+  .discover-card:hover {
+    transform: scale(1.1); }
 
 /*!
  * Bootstrap v3.3.7 (https://getbootstrap.com)

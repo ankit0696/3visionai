@@ -29,6 +29,7 @@
     font-size: 5rem;
     font-family: "Proxima-extra",Arial,sans-serif;
     letter-spacing: 1.5px;
+    margin: auto;
 }
 
 .para-main{
@@ -278,7 +279,7 @@
     overflow: hidden;
     transition: all 0.3s ease;
 
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -290,10 +291,18 @@
         width: 95%;
     }
 
+    .blue{
+    }
+
     .bold{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 900;
+        color: $color-secondary;
         font-family: "Proxima-bold",Arial,sans-serif;
 
+    }
+
+    &:hover{
+        transform: scale(1.1);
     }
 }
