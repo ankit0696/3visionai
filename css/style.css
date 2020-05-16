@@ -741,6 +741,27 @@ nav {
     max-width: 25rem;
     line-height: 2rem; }
 
+.discover-card {
+  box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 2px;
+  background-color: #f8fcfe;
+  margin: 2rem auto;
+  height: 20rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  font-size: 2.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .discover-card .content {
+    margin: auto;
+    width: 95%; }
+  .discover-card .bold {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: "Proxima-bold",Arial,sans-serif; }
+
 /*!
  * Bootstrap v3.3.7 (https://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
