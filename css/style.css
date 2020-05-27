@@ -379,7 +379,8 @@ details[open] {
 
 details p {
   color: #96999d;
-  font-weight: 300; }
+  font-weight: 300;
+  word-wrap: break-word; }
 
 summary {
   display: flex;
@@ -425,6 +426,18 @@ details[open] .control-icon-expand {
   .scrolled .bars:after {
     background: #333333 !important; }
 
+.unscrolled-active {
+  background: white !important;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1); }
+  .unscrolled-active .menu a {
+    color: #333333; }
+  .unscrolled-active .bars,
+  .unscrolled-active .bars:before,
+  .unscrolled-active .bars:after {
+    background: #333333 !important; }
+
 nav {
   position: fixed;
   width: 100%;
@@ -451,7 +464,7 @@ nav {
         text-decoration: none; }
     nav .menu .btn-main {
       padding: 0.3rem;
-      padding-left: 2.5rem; }
+      padding-left: .5rem; }
 
 .menu {
   display: flex;
@@ -568,6 +581,35 @@ nav {
   .menu li.button {
     padding-right: 0; } }
 
+.card-know-more:hover .know-more-content {
+  opacity: 1;
+  top: 0; }
+
+.know-more-content {
+  top: -50rem;
+  left: 0;
+  opacity: 1;
+  letter-spacing: 0.2px;
+  position: absolute;
+  transition: all .7s ease-in-out;
+  color: #333333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(185, 185, 185, 0.9)), to(rgba(201, 201, 201, 0.95))); }
+  .know-more-content .bold {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    font-family: "Proxima-semi", Arial, sans-serif; }
+
+.box {
+  position: relative; }
+
+hr.soften {
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  border: 0; }
+
 .btn-main button {
   background-color: #ffaa34;
   padding: 10px 25px;
@@ -584,7 +626,7 @@ nav {
 .heading-main {
   text-align: center;
   font-size: 5rem;
-  font-family: "Proxima-extra",Arial,sans-serif;
+  font-family: "Proxima-extra", Arial, sans-serif;
   letter-spacing: 1.5px;
   margin: auto; }
 
@@ -637,18 +679,18 @@ nav {
         .tabs ul.ui-tabs-nav li a:hover, .tabs ul.ui-tabs-nav li a:active {
           color: #0a6cf4; }
         .tabs ul.ui-tabs-nav li a::after {
-          content: '';
+          content: "";
           display: block;
           width: 0;
           height: 2px;
           background: #0a6cf4;
-          transition: width .3s; }
+          transition: width 0.3s; }
         .tabs ul.ui-tabs-nav li a:hover::after {
           width: 100%; }
     .tabs ul.ui-tabs-nav .ui-state-active a {
       color: #0a6cf4; }
       .tabs ul.ui-tabs-nav .ui-state-active a::after {
-        content: '';
+        content: "";
         display: block;
         width: 100%;
         height: 2px;
@@ -677,8 +719,6 @@ nav {
   height: 45rem;
   overflow: hidden;
   transition: all 0.3s ease; }
-  .box:hover {
-    transform: scale(1.05); }
   .box .card-img {
     height: 21rem;
     background-color: #f8fcfe; }
@@ -688,7 +728,7 @@ nav {
     color: #333333;
     text-align: left;
     text-transform: uppercase;
-    font-family: "Proxima-semi",Arial,sans-serif;
+    font-family: "Proxima-semi", Arial, sans-serif;
     height: 7.8rem; }
   .box .card-desc {
     color: #333333;
@@ -701,7 +741,10 @@ nav {
     text-align: justify; }
   .box .card-know-more {
     text-align: center;
-    padding: 2rem; }
+    padding: 2rem;
+    margin: auto;
+    width: fit-content;
+    cursor: pointer; }
 
 .know-more {
   color: #ffaa34;
@@ -722,7 +765,7 @@ nav {
     color: #36454f;
     margin: 30px 0; }
     .team-card .member-info .member-name {
-      font-family: "Proxima-bold",Arial,sans-serif;
+      font-family: "Proxima-bold", Arial, sans-serif;
       font-size: 1.8rem; }
     .team-card .member-info .member-role {
       font-size: 1.6rem; }
@@ -765,9 +808,13 @@ nav {
     font-size: 2.5rem;
     font-weight: 900;
     color: #0a6cf4;
-    font-family: "Proxima-bold",Arial,sans-serif; }
+    font-family: "Proxima-bold", Arial, sans-serif; }
   .discover-card:hover {
     transform: scale(1.1); }
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn); } }
 
 /*!
  * Bootstrap v3.3.7 (https://getbootstrap.com)

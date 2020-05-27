@@ -56,7 +56,8 @@ $(function () {
 $(function() {
   $('.toggle').click(function(e) {
     e.stopPropagation();
-    $(".item").toggleClass('active')
+    $(".item").toggleClass('active');
+    $("#navbar").toggleClass('unscrolled-active')
   });
   $('body').click(function(e) {
     if ($('.item').hasClass('active')) {
