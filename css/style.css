@@ -638,6 +638,9 @@ hr.soften {
     z-index: 20;
 }
 
+.highlights_img{
+  max-height: 30rem;
+}
 
 .ring {
     z-index: 10;
@@ -1762,8 +1765,11 @@ hr {
     color: #333333; }
 
 .solutions {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   text-align: center; }
+.key-features{
+  background-color: #f9f9f9;
+}
 
 .partner-logo {
   text-align: center; }
