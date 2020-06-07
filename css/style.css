@@ -601,6 +601,7 @@ nav {
   .know-more-content .bold {
     font-weight: bolder;
     font-size: 1.8rem;
+    color: var(--color-primary);
     font-family: "Proxima-semi", Arial, sans-serif; }
 
 .box {
