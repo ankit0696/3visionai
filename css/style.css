@@ -661,6 +661,7 @@ hr.soften {
   font-size: 5rem;
   font-family: "Proxima-extra", Arial, sans-serif;
   letter-spacing: 1.5px;
+  line-height: normal;
   margin: auto; }
 
 .para-main {
