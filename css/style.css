@@ -717,8 +717,9 @@ padding: 1rem; }
     font-size: 1.6rem;
     line-height: 2.3rem; }
     .itelligence-items p.intelligence-heading{
-    font-family: "Proxima-semi", Arial, sans-serif;
+    font-family: "Proxima-bold", Arial, sans-serif;
     margin-top: 0;
+    font-size: 1.8rem;
     }
     .itelligence-items div.intelligence-tags{
       /* margin-top: 1.5rem; */
