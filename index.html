@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+
 
     <script src="./js/jquery-1.12.4.js"></script>
     <script src="./js/jquery-ui.js"></script>
+
+
+    <script src="./js/slick.js"></script>
     <script src="./js/cutsom.js"></script>
+
     <title>3VisionAI</title>
 
 </head>
@@ -31,16 +37,17 @@
         <div class="header-main">
 
             <nav id="navbar">
-    <ul class="menu">
-        <li class="logo"><a href="./index.html"><img src="./img/logo.png" class="logo" alt=""></a></li>
-        <li class="item"><a href="#">Products</a></li>
-        <li class="item"><a href="#">Learn</a></li>
-        <li class="item"><a href="./company.html">Company</a></li>
-        <li class="item btn-main"><a class="btn-main" href="#"><button>Talk to an AI Expert</button> </a></li>
-        <li class="toggle"><span class="bars"></span></li>
-    </ul>
+                <ul class="menu">
+                    <li class="logo"><a href="./index.html"><img src="./img/logo.png" class="logo" alt=""></a></li>
+                    <li class="item"><a href="#">Products</a></li>
+                    <li class="item"><a href="#">Learn</a></li>
+                    <li class="item"><a href="./company.html">Company</a></li>
+                    <li class="item btn-main"><a class="btn-main" href="#"><button>Talk to an AI Expert</button> </a>
+                    </li>
+                    <li class="toggle"><span class="bars"></span></li>
+                </ul>
 
-</nav>
+            </nav>
 
             <div class="banner-content">
                 <!-- <div class="banner-title">3Vision</div> -->
@@ -130,22 +137,33 @@
                                     <p class="card-title">Social distancing hotspot Detection</p>
                                     <p class="card-desc">Automatically monitor compliance, detect violations and
                                         hotspots</p>
-                                        <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div>
-                                            <div class="know-more-content">
-                                                <h4 class="bold">Problem</h4>
-                                                <p>
-                                                    As workplace needs to re-open there is a major emphasis on maintaining social-distancing norms to prevent the spread of disease. While all the workplace arrangements could be made, is there a way to quantify the number of violations, the problematic areas, the hotspots, time and day pattern during which these compliance norms are not met. Human attention to CCTV cameras, or staying focused on a given situation can vary widely and is error prone. 
-                                                </p>
-                                                <hr class="soften" />
-                                                <h4 class="bold">Solution</h4>
-                                                <p>
-                                                    Use of secure camera based AI system that automatically detects the cluster of people who are not within the safe distance‎. Moreover the live analytics provides detailed deep dive data on the problematic areas with rule-based alert work-flow. The solution can be connected to any standard security camera.
-                                                </p>
-                                            </div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
                                         </div>
+                                        <div class="know-more-content">
+                                            <h4 class="bold">Problem</h4>
+                                            <p>
+                                                As workplace needs to re-open there is a major emphasis on maintaining
+                                                social-distancing norms to prevent the spread of disease. While all the
+                                                workplace arrangements could be made, is there a way to quantify the
+                                                number of violations, the problematic areas, the hotspots, time and day
+                                                pattern during which these compliance norms are not met. Human attention
+                                                to CCTV cameras, or staying focused on a given situation can vary widely
+                                                and is error prone.
+                                            </p>
+                                            <hr class="soften" />
+                                            <h4 class="bold">Solution</h4>
+                                            <p>
+                                                Use of secure camera based AI system that automatically detects the
+                                                cluster of people who are not within the safe distance‎. Moreover the
+                                                live analytics provides detailed deep dive data on the problematic areas
+                                                with rule-based alert work-flow. The solution can be connected to any
+                                                standard security camera.
+                                            </p>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -155,22 +173,31 @@
                                     <p class="card-title">PERSONAL PROTECTIVE GEAR COMPLIANCE</p>
                                     <p class="card-desc">Automatic Compliance for personal protective gears such as
                                         masks, helmets, eye wear, proper footwear and other industrial gears</p>
-                                        <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div>
-                                            <div class="know-more-content">
-                                                <h4 class="bold">Problem</h4>
-                                                <p>
-                                                    International Labour Organisation estimates that 340 million work-related accidents takes place every year and out of which 2.3 million workers succumb to such accidents. Most of these accidents are avoidable. Moreover the current COVID scenario has mandated wearing of masks in workplaces. How does one monitor the compliance in real-time and get quantitative actionable analysis 
-                                                </p>
-                                                <hr class="soften" />
-                                                <h4 class="bold">Solution</h4>
-                                                <p>
-                                                    Use of secure camera based AI system that detects the use or not of PPE (Personal Protective Equipment‎). It can be connected to any standard security camera and the detection can be used to alert, deny access to unprotected personal or to automatically create alerts.
-                                                </p>
-                                            </div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
                                         </div>
+                                        <div class="know-more-content">
+                                            <h4 class="bold">Problem</h4>
+                                            <p>
+                                                International Labour Organisation estimates that 340 million
+                                                work-related accidents takes place every year and out of which 2.3
+                                                million workers succumb to such accidents. Most of these accidents are
+                                                avoidable. Moreover the current COVID scenario has mandated wearing of
+                                                masks in workplaces. How does one monitor the compliance in real-time
+                                                and get quantitative actionable analysis
+                                            </p>
+                                            <hr class="soften" />
+                                            <h4 class="bold">Solution</h4>
+                                            <p>
+                                                Use of secure camera based AI system that detects the use or not of PPE
+                                                (Personal Protective Equipment‎). It can be connected to any standard
+                                                security camera and the detection can be used to alert, deny access to
+                                                unprotected personal or to automatically create alerts.
+                                            </p>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -180,23 +207,31 @@
                                     <p class="card-title">HYGIENE COMPLIANCE & AUDIT</p>
                                     <p class="card-desc">Monitor kitchen & restaurant spillage, cleanliness, gloves,
                                         masks, safety cap etc</p>
-                                        <div class="know-more card-know-more">
-                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div>
-                                            <div class="know-more-content">
-                                                <h4 class="bold">Problem</h4>
-                                                <p>
-                                                    Germs carried by people are one of the major sources of food borne illnesses hence all the staff should ensure personal hygiene to ensure food safety. Monitoring of real-time Standard operating procedures (floor mopping, cleanliness, spillage etc) and hygiene (masks, gloves, safety cap)within a kitchen, hotels, restaurants reduces the non-compliance thus prevents businesses from getting sued or shut down 
-                                                </p>
-                                                <hr class="soften" />
-                                                <h4 class="bold">Solution</h4>
-                                                <p>
-                                                    Use of secure camera based AI system that detects people wearing hats, caps, masks, gloves etc. The manual SOP checklist doesn’t provide you real-time analytics, whereas camera based AI detection gives runs audit on minute-by-minute basis with deep analytics and real-time alerts.
-                                                </p>
-                                            </div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
                                         </div>
+                                        <div class="know-more-content">
+                                            <h4 class="bold">Problem</h4>
+                                            <p>
+                                                Germs carried by people are one of the major sources of food borne
+                                                illnesses hence all the staff should ensure personal hygiene to ensure
+                                                food safety. Monitoring of real-time Standard operating procedures
+                                                (floor mopping, cleanliness, spillage etc) and hygiene (masks, gloves,
+                                                safety cap)within a kitchen, hotels, restaurants reduces the
+                                                non-compliance thus prevents businesses from getting sued or shut down
+                                            </p>
+                                            <hr class="soften" />
+                                            <h4 class="bold">Solution</h4>
+                                            <p>
+                                                Use of secure camera based AI system that detects people wearing hats,
+                                                caps, masks, gloves etc. The manual SOP checklist doesn’t provide you
+                                                real-time analytics, whereas camera based AI detection gives runs audit
+                                                on minute-by-minute basis with deep analytics and real-time alerts.
+                                            </p>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -211,10 +246,12 @@
                                     <p class="card-title">REAL-TIME CUSTOMER FLOW</p>
                                     <p class="card-desc">Detect people and count, identify hotspot. Compare flow before
                                         and after specific events </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -223,10 +260,12 @@
                                     <p class="card-title">SENTIMENT & EMOTION ANALYSIS </p>
                                     <p class="card-desc">Detect sentiment and emotion of crowd next to the advertising &
                                         promotion zones
-                                        <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -235,10 +274,12 @@
                                     <p class="card-title"> CUSTOMER ATTRIBUTE & PERSONA ANALYSIS </p>
                                     <p class="card-desc">Augment your sales data or marketing intelligence with customer
                                         attribute such as facial expression, gender, age group, clothing style</p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -248,13 +289,17 @@
                             <div class="col-sm-4">
                                 <div class="box">
 
-                                    <img class="card-img" src="img/solutions/automated-workplace-safety.png" alt="" width="100%">
+                                    <img class="card-img" src="img/solutions/automated-workplace-safety.png" alt=""
+                                        width="100%">
                                     <p class="card-title">AUTOMATED WORKPLACE SAFETY</p>
-                                    <p class="card-desc">Detect the presence of humans in hazardous zones, equipments or objects that obstructs pathway </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <p class="card-desc">Detect the presence of humans in hazardous zones, equipments or
+                                        objects that obstructs pathway </p>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -263,21 +308,27 @@
                                     <p class="card-title">WORKFORCE SAFETY & PROTECTIVE GEAR COMPLIANCE</p>
                                     <p class="card-desc">Enable zero-touch checkout and shopping experience
                                     </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="box">
                                     <img class="card-img" src="img/solutions/visual-inspection.png" alt="" width="100%">
                                     <p class="card-title">VISUAL INSPECTION & AUDIT</p>
-                                    <p class="card-desc">Visual Inspection, used in manufacturing of sheet metals, materials, inspection of equipment, structures, Weld-metal deposits, erroneous spray paints etc</p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <p class="card-desc">Visual Inspection, used in manufacturing of sheet metals,
+                                        materials, inspection of equipment, structures, Weld-metal deposits, erroneous
+                                        spray paints etc</p>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -291,10 +342,12 @@
                                     <p class="card-title">SHELF ATTENTION ANALYSIS</p>
                                     <p class="card-desc">Automatically identify the heat-map of most visited & popular
                                         areas </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -304,10 +357,12 @@
                                     <p class="card-title">ZERO TOUCH SHOPPING EXPERIENCE </p>
                                     <p class="card-desc">Enable zero-touch checkout and shopping experience
                                     </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -317,10 +372,12 @@
                                     <p class="card-title">AUGMENTED SHOPPING EXPERIENCE</p>
                                     <p class="card-desc">Automatically detect products and display product information &
                                         other experience on the App</p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -332,34 +389,43 @@
 
                                     <img class="card-img" src="img/solutions/kyc.png" alt="" width="100%">
                                     <p class="card-title">REMOTE VIDEO KYC - KNOW YOUR CUSTOMER</p>
-                                    <p class="card-desc">Automatically detect data from ID Cards such as PAN Card, Aadhar Card. Match face and liveness  </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <p class="card-desc">Automatically detect data from ID Cards such as PAN Card,
+                                        Aadhar Card. Match face and liveness </p>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="box">
                                     <img class="card-img" src="img/solutions/data-extraction.png" alt="" width="100%">
                                     <p class="card-title">UNSTRUCTURED DATA EXTRACTION & FRAUD CHECK </p>
-                                    <p class="card-desc">Automatically Extract data from Forms, Invoices, purchase orders, claim forms and other documents. Check for duplicate 	invoices etc
+                                    <p class="card-desc">Automatically Extract data from Forms, Invoices, purchase
+                                        orders, claim forms and other documents. Check for duplicate invoices etc
                                     </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="box">
                                     <img class="card-img" src="img/solutions/damage-assessment.png" alt="" width="100%">
                                     <p class="card-title">DAMAGE ASSESSMENT </p>
-                                    <p class="card-desc">Insurance companies can assess the damage to the vehicles and process the insurance claim faster</p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <p class="card-desc">Insurance companies can assess the damage to the vehicles and
+                                        process the insurance claim faster</p>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -369,79 +435,115 @@
                             <div class="col-sm-4">
                                 <div class="box">
 
-                                    <img class="card-img" src="img/solutions/aerial-survillence.png" alt="" width="100%">
+                                    <img class="card-img" src="img/solutions/aerial-survillence.png" alt=""
+                                        width="100%">
                                     <p class="card-title">AERIAL SURVEILLANCE </p>
-                                    <p class="card-desc">Set perimeter boundaries and zones and Identify unwanted intrusions, fence jumping, trespassing 
+                                    <p class="card-desc">Set perimeter boundaries and zones and Identify unwanted
+                                        intrusions, fence jumping, trespassing
                                     </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="box">
                                     <img class="card-img" src="img/solutions/crowd-distubance.png" alt="" width="100%">
-                                    <p class="card-title">CROWD DISTURBANCE DETECTION  </p>
-                                    <p class="card-desc">Detect crowd behaviour such as violence, disturbance or any unusual movement or activity 
+                                    <p class="card-title">CROWD DISTURBANCE DETECTION </p>
+                                    <p class="card-desc">Detect crowd behaviour such as violence, disturbance or any
+                                        unusual movement or activity
                                     </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="box">
                                     <img class="card-img" src="img/solutions/campus-monitoring.png" alt="" width="100%">
                                     <p class="card-title">CAMPUS MONITORING </p>
-                                    <p class="card-desc">	Monitor & audit vehicle movement with license plate detection, crowd density, count, unattended object or any area zone of 	interest</p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <p class="card-desc"> Monitor & audit vehicle movement with license plate detection,
+                                        crowd density, count, unattended object or any area zone of interest</p>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="tabs-7" class="tab-content">
                         <div class="container-fluid boxes">
-                            <div class="col-sm-4">
+                            <!-- <div class="col-sm-4">
                                 <div class="box">
 
                                     <img class="card-img" src="img/solutions/skin-and-hair.png" alt="" width="100%">
                                     <p class="card-title">SKIN & HAIR CARE </p>
                                     <p class="card-desc">
-                                        Personalise skin and hair care treatment options by using AI assisted smart detection technology 
+                                        Personalise skin and hair care treatment options by using AI assisted smart
+                                        detection technology
                                     </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="col-sm-4">
+                                <div class="box">
+
+                                    <img class="card-img" src="img/solutions/health/livestock_animal.png" alt="" width="100%">
+                                    <p class="card-title">Livestock Animal Health & Behaviour Monitoring </p>
+                                    <p class="card-desc">
+                                        Non-Invasive automated monitoring of animal feeding, discharges, locomotion, aggressive and reproductive behaviours to assess health & early onset of disease. 
+                                    </p>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="box">
-                                    <img class="card-img" src="img/solutions/health/clinical_research_rodent_health.png" alt="" width="100%">
+                                    <img class="card-img" src="img/solutions/health/clinical_research_rodent_health.png"
+                                        alt="" width="100%">
                                     <p class="card-title">Clinical Research Rodent Health & Digital Biomarkers</p>
                                     <p class="card-desc">
-                                        Non-Invasive Automated Monitoring of Rodents for behavior, movement patterns, breathing rate, twitches, discharges etc  
+                                        Non-Invasive Automated Monitoring of Rodents for behavior, movement patterns,
+                                        breathing rate, twitches, discharges etc
                                     </p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="box">
                                     <img class="card-img" src="img/solutions/physio.png" alt="" width="100%">
-                                    <p class="card-title">PRE-REHAB AND PHYSIOTHERAPY  </p>
-                                    <p class="card-desc">Automatically detect & capture movement, range-of-motion, alignment, posture</p>
-                                    <div class="know-more card-know-more">                                            <div class="plus-container">
-                                                <div class="plus"></div>
-                                                <div class="ring"></div>
-                                            </div></div>
+                                    <p class="card-title">PRE-REHAB AND PHYSIOTHERAPY </p>
+                                    <p class="card-desc">Automatically detect & capture movement, range-of-motion,
+                                        alignment, posture</p>
+                                    <div class="know-more card-know-more">
+                                        <div class="plus-container">
+                                            <div class="plus"></div>
+                                            <div class="ring"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -512,16 +614,18 @@
                                 <div class="col-sm-7">
                                     <div class="p-l-4">
                                         <h5 class="features-head m-t-2">
-                                            AI/ML Models optimised to run efficiently on the edge devices and provide real-time insights 
+                                            AI/ML Models optimised to run efficiently on the edge devices and provide
+                                            real-time insights
                                         </h5>
                                         <p class="features-para">
-                                            Deploy AI models to the network edge, fully unleashing the potential of the edge analytics for business transformations 
+                                            Deploy AI models to the network edge, fully unleashing the potential of the
+                                            edge analytics for business transformations
                                         </p>
                                         <div class="listed">
                                             <ul>
                                                 <li>
                                                     <span class="m-r-1"><img src="./img/tick.svg" alt=""></span>
-                                                    Low latency, improved privacy & security 
+                                                    Low latency, improved privacy & security
                                                 </li>
                                                 <li>
                                                     <span class="m-r-1"><img src="./img/tick.svg" alt=""></span>
@@ -529,14 +633,16 @@
                                                 </li>
                                                 <li>
                                                     <span class="m-r-1"><img src="./img/tick.svg" alt=""></span>
-                                                    Edge devices such as mobile phones, drones, robots, security cameras etc
+                                                    Edge devices such as mobile phones, drones, robots, security cameras
+                                                    etc
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-offset-1 col-sm-4">
-                                    <img class="highlights_img" src="./img/features/undraw_visionary_technology_33jy-o.svg" alt="" width="100%">
+                                    <img class="highlights_img"
+                                        src="./img/features/undraw_visionary_technology_33jy-o.svg" alt="" width="100%">
                                 </div>
                             </div>
                         </div>
@@ -613,7 +719,8 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-offset-1 col-sm-4">
-                                    <img class="highlights_img" src="./img/features/undraw_real_time_collaboration_c62i.svg" alt=""
+                                    <img class="highlights_img"
+                                        src="./img/features/undraw_real_time_collaboration_c62i.svg" alt=""
                                         width="100%">
                                 </div>
                             </div>
@@ -623,7 +730,8 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-4">
-                                    <img class="highlights_img" src="./img/features/undraw_virtual_reality_y5ig.svg" alt="" width="100%">
+                                    <img class="highlights_img" src="./img/features/undraw_virtual_reality_y5ig.svg"
+                                        alt="" width="100%">
                                 </div>
 
                                 <div class="col-sm-offset-1 col-sm-7">
@@ -670,7 +778,7 @@
                     <div class="col-sm-3">
                         <div class="discover-card">
                             <div class="content">
-                                Improved response <span class="bold">times by <span class="blue">10X</span>  </span>
+                                Improved response <span class="bold">times by <span class="blue">10X</span> </span>
 
                             </div>
                         </div>
@@ -679,7 +787,7 @@
                     <div class="col-sm-3">
                         <div class="discover-card">
                             <div class="content">
-                                 <span class="bold"><span class="blue">99%</span> uptime  </span>for compliance
+                                <span class="bold"><span class="blue">99%</span> uptime </span>for compliance
 
                             </div>
                         </div>
@@ -695,7 +803,7 @@
                     <div class="col-sm-3">
                         <div class="discover-card">
                             <div class="content">
-                                <span class="bold"><span class="blue">98%</span>  elimination </span>of manual steps
+                                <span class="bold"><span class="blue">98%</span> elimination </span>of manual steps
 
                             </div>
                         </div>
@@ -704,6 +812,62 @@
 
             </section>
 
+            <!-- <section class="cap">
+                <h3 class="heading-main">Capabilities</h3>
+                <div class="slider-container m-t-3">
+                    <div class="slider-card">
+                        <img src="./img/solutions/blank.png" alt="" height="200">
+                        <div class="slider-text">
+                            <p class="slider-heading">Lorem ipsum</p>
+                            <p class="slider-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <img src="./img/solutions/blank.png" alt="" height="200">
+                        <div class="slider-text">
+                            <p class="slider-heading">Lorem ipsum</p>
+                            <p class="slider-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <img src="./img/solutions/blank.png" alt="" height="200">
+                        <div class="slider-text">
+                            <p class="slider-heading">Lorem ipsum</p>
+                            <p class="slider-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <img src="./img/solutions/blank.png" alt="" height="200">
+                        <div class="slider-text">
+                            <p class="slider-heading">Lorem ipsum</p>
+                            <p class="slider-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <img src="./img/solutions/blank.png" alt="" height="200">
+                        <div class="slider-text">
+                            <p class="slider-heading">Lorem ipsum</p>
+                            <p class="slider-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <img src="./img/solutions/blank.png" alt="" height="200">
+                        <div class="slider-text">
+                            <p class="slider-heading">Lorem ipsum</p>
+                            <p class="slider-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section> -->
+
             <section class="partners">
                 <h3 class="heading-main">Partners</h3>
                 <div class="partner-logo">
@@ -711,6 +875,15 @@
                     <img src="./img/partners/aws.jpg">
                 </div>
             </section>
+
+
+
+
+
+
+
+
+
 
             <section class="get-started">
                 <h3 class="heading-main">Let's get started</h3>
@@ -752,15 +925,17 @@
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
                         </summary>
                         <p>
-                            No additional hardware is required if you want to consume the services on the cloud. For on-premise, you would require a basic server to run the system. You can also run the solution on Android mobile devices.
-<br>
-For existing camera setup, the following are pre-requisites 
-<br>
-1. Should be IP Enabled Cameras 
-<br>
-2. Should do live stream
-<br>
-e.g. rtsp://live1.brownrice.com:1935/westland/westland.stream
+                            No additional hardware is required if you want to consume the services on the cloud. For
+                            on-premise, you would require a basic server to run the system. You can also run the
+                            solution on Android mobile devices.
+                            <br>
+                            For existing camera setup, the following are pre-requisites
+                            <br>
+                            1. Should be IP Enabled Cameras
+                            <br>
+                            2. Should do live stream
+                            <br>
+                            e.g. rtsp://live1.brownrice.com:1935/westland/westland.stream
 
 
 
@@ -802,64 +977,66 @@ e.g. rtsp://live1.brownrice.com:1935/westland/westland.stream
         </div>
 
         <div class="footer">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="footer-sec-1">
-                    <img class="logo-footer" src="img/logo.png" alt="">
-                    <div class="footer-para">
-                        3Vision is a product of Thinking Stack Inc.
-                        <br>
-                        &copy; 2020. All rights reserved.
-                    </div>
-                    <div class="footer-social">
-                        <img src="./img/social-icons/twitter.svg" alt="">
-                        <img src="./img/social-icons/linkedin.svg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-offset-1 col-sm-2">
-                <div class="footer-sec-2">
-                    <div class="site-links">
-                        <ul>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Learn</a></li>
-                            <li><a href="company.html">Company</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-offset-2 col-sm-3">
-                <div class="footer-sec-3">
-                    <div class="contact-us-container">
-                        <div class="contact-text">Contact Us</div>
-                        <div class="address">
-                            Thinking Stack Inc<br>
-                            3260 Hillview avenue
-                            Palo Alto California 94304
-                            United States of America
-                            <br><br>
-                            Thinking Stack India Pvt Ltd<br>
-                            We Work Galaxy
-                            43 Residency Road, Bengaluru, India 560025
-                        </div>
-                        <div class="contact-option">
-                            <div class="email">
-                                <span class="m-r-1"><img src="img/contact-icons/close-envelope.svg" alt=""></span>
-                                <a href="mailto:karthikcr@thinkingstack.com">karthikcr@thinkingstack.com</a>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="footer-sec-1">
+                            <img class="logo-footer" src="img/logo.png" alt="">
+                            <div class="footer-para">
+                                3Vision is a product of Thinking Stack Inc.
+                                <br>
+                                &copy; 2020. All rights reserved.
                             </div>
-                            <div class="tele">
-                                <span class="m-r-1"><img src="img/contact-icons/old-typical-phone.svg" alt=""></span>
-                                <a href="tel:+91 99457 46946">+91 99457 46946</a>
+                            <div class="footer-social">
+                                <img src="./img/social-icons/twitter.svg" alt="">
+                                <img src="./img/social-icons/linkedin.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-2">
+                        <div class="footer-sec-2">
+                            <div class="site-links">
+                                <ul>
+                                    <li><a href="#">Products</a></li>
+                                    <li><a href="#">Learn</a></li>
+                                    <li><a href="company.html">Company</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-offset-2 col-sm-3">
+                        <div class="footer-sec-3">
+                            <div class="contact-us-container">
+                                <div class="contact-text">Contact Us</div>
+                                <div class="address">
+                                    Thinking Stack Inc<br>
+                                    3260 Hillview avenue
+                                    Palo Alto California 94304
+                                    United States of America
+                                    <br><br>
+                                    Thinking Stack India Pvt Ltd<br>
+                                    We Work Galaxy
+                                    43 Residency Road, Bengaluru, India 560025
+                                </div>
+                                <div class="contact-option">
+                                    <div class="email">
+                                        <span class="m-r-1"><img src="img/contact-icons/close-envelope.svg"
+                                                alt=""></span>
+                                        <a href="mailto:karthikcr@thinkingstack.com">karthikcr@thinkingstack.com</a>
+                                    </div>
+                                    <div class="tele">
+                                        <span class="m-r-1"><img src="img/contact-icons/old-typical-phone.svg"
+                                                alt=""></span>
+                                        <a href="tel:+91 99457 46946">+91 99457 46946</a>
 
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
     </div>
 
 </body>

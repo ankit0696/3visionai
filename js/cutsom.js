@@ -8,43 +8,6 @@ function toggleAccordion(){
 items.forEach(item => item.addEventListener('click', toggleAccordion));
 
 
-//navigation
-
-// (function($) { // Begin jQuery
-//   $(function() { // DOM ready
-//     // If a link has a dropdown, add sub menu toggle.
-//     // $('nav ul li a:not(:only-child)').click(function(e) {
-//     //   $(this).siblings('.nav-dropdown').toggle();
-//     //   // Close one dropdown when selecting another
-//     //   $('.nav-dropdown').not($(this).siblings()).hide();
-//     //   e.stopPropagation();
-//     // });
-//     // Clicking away from dropdown will remove the dropdown class
-//     $('html').click(function() {
-//       $('.nav-dropdown').hide();
-//     });
-//     // Toggle open and close nav styles on click
-//     $('#nav-toggle').click(function() {
-//       $('nav ul').slideToggle();
-//     });
-//     // Hamburger to X toggle
-//     $('#nav-toggle').on('click', function() {
-//       this.classList.toggle('active');
-//     });
-//   }); // end DOM ready
-// })(jQuery); // end jQuery
-
-
-// $(function() {
-//   $(".toggle").on("click", function() {
-//       if ($(".item").hasClass("active")) {
-//           $(".item").removeClass("active");
-//       } else {
-//           $(".item").addClass("active");
-//       }
-//   });
-// });
-
 
 $(function () {
   $(document).scroll(function () {
@@ -64,4 +27,43 @@ $(function() {
       $(".item").toggleClass('active')
     }
   })
+});
+
+$(document).ready(function(){
+  $('.slider-container').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+      
 });

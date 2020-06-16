@@ -1844,3 +1844,48 @@ hr {
 .footer .contact-us-container .contact-option {
   font-family: "Proxima-semi",Arial,sans-serif;
   font-size: 1.4rem; }
+
+
+  .cap{
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .slider-card{
+    max-width: 22rem;
+    border: 2px solid #f2f3f4;
+    overflow: hidden;
+  }
+
+  .slider-text{
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .slider-heading{
+    font-size: 2rem;
+    font-family: "Proxima-semi", Arial, sans-serif; 
+    margin: 1rem 0 1rem 0;
+  }
+
+  .slider-para{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+  }
+
+  .slider-container{
+    /* width: 90%; */
+  }
+
+  .slick-next{
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    right: 0;
+}
+.slick-prev{
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 0;
+}
