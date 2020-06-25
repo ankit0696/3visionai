@@ -1857,9 +1857,13 @@ hr {
     overflow: hidden;
     height: 45rem;
     background: #fff;
+    transition: all 0.2s ease;
   }
-
-  
+  .slider-card:hover {
+    background: #333;
+    color: #fff;
+    border: 2px solid #333;
+  }
 
   .slider-text{
     text-align: left;
