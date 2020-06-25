@@ -31,6 +31,8 @@ $(function() {
 
 $(document).ready(function(){
   $('.slider-container').slick({
+    prevArrow:"<img class='a-left control-c prev slick-prev' src='./img/logo.png'>",
+    nextArrow:"<img class='a-right control-c next slick-next' src='./img/logo.png'>",
     dots: false,
     infinite: false,
     speed: 300,
