@@ -1852,9 +1852,11 @@ hr {
   }
 
   .slider-card{
-    max-width: 22rem;
+    max-width: 26rem;
     border: 2px solid #f2f3f4;
     overflow: hidden;
+    height: 45rem;
+    background: #fff;
   }
 
   .slider-text{
@@ -1866,6 +1868,10 @@ hr {
     font-size: 2rem;
     font-family: "Proxima-semi", Arial, sans-serif; 
     margin: 1rem 0 1rem 0;
+  }
+
+  .slider-card img {
+    width: 100%;
   }
 
   .slider-para{
