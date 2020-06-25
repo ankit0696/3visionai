@@ -1888,10 +1888,12 @@ hr {
     z-index: 1000;
     top: 50%;
     right: 0;
+    height: 3rem;
 }
 .slick-prev{
     position: absolute;
     z-index: 1000;
     top: 50%;
     left: 0;
+    height: 3rem;
 }
