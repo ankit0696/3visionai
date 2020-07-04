@@ -685,6 +685,17 @@ hr.soften {
   line-height: normal;
   margin: auto; }
 
+.heading-left {
+  text-align: left !important;
+}
+
+.heading-secondary{
+  font-size: 3rem;
+  font-family: "Proxima-semi", Arial, sans-serif;
+  letter-spacing: 1.2px;
+  margin: 2.5rem 0 1.5rem 0;
+}
+
 .para-main {
   font-size: 2rem;
   text-align: center;
@@ -694,6 +705,10 @@ hr.soften {
   color: #333333;
   line-height: 3rem;
 padding: 1rem; }
+
+.para-secondary{
+  font-size: 1.6rem;
+}
 
 .itelligence-container {
   display: flex;
@@ -1902,4 +1917,80 @@ hr {
     top: 50%;
     left: 0;
     height: 3rem;
+}
+
+section.split{
+  padding: 0;
+}
+
+.split .split-img {
+  height: 67rem;
+  width: 100%;
+}
+
+div.watch{
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.watch-btn {
+  background: transparent;
+  border: 1px solid #333;
+  display: inline-block;
+  margin: 3rem 0;
+  border-radius: 50px;
+  padding: 1rem 5rem;
+  vertical-align: bottom;
+}
+
+.watch p{
+  font-size: 1.6rem;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Proxima-semi", Arial, sans-serif;
+  line-height: 1;
+  color: #333;
+}
+
+.header-retail {
+  height: 90vh;
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.1), rgba(94, 94, 94, 0.3)), url("../img/industry/retail.jpg");
+  display: flex;
+  /* flex-flow: column;
+  transition: all ease 0.3s;
+  animation: breath 20s ease;
+  animation-iteration-count: infinite; */
+ }
+  @media (max-width: 37.5em) {
+    .header-main {
+      animation: none; } }
+
+.industry-banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.industry-content{
+  max-width: 70rem;
+  background: rgba(255, 170, 52, 0.78);
+  color: #f9f9f9;
+}
+
+.heading-title {
+  font-size: 6rem;
+  margin: auto;
+  width: fit-content;
+  line-height: 6.5rem;
+  font-family: "Proxima-bold", Arial, sans-serif;
+  padding-top: 3rem;
+}
+
+
+.para-title{
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 2rem 7rem 4rem 7rem;
 }
