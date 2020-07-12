@@ -1817,6 +1817,14 @@ hr {
     height: 14rem;
     margin: 6rem 2.5rem 0 2.5rem; }
 
+    .integration-logo{
+      text-align: center;
+    }
+.integration-logo img{
+  height: 9rem;
+  margin: 6rem 2.5rem 0 2.5rem;  
+}
+
 .get-started {
   background-color: #f9f9f9;
   text-align: center; }
