@@ -22,7 +22,7 @@ $(function() {
     $(".item").toggleClass('active');
     $("#navbar").toggleClass('unscrolled-active')
   });
-  $('body').click(function(e) {
+  $('.content').click(function(e) {
     if ($('.item').hasClass('active')) {
       $(".item").toggleClass('active')
     }
