@@ -130,7 +130,7 @@ window.onload = function() {
 
 
 $(document).ready(function() {
-  var urls = ['./img/header.png', './img/header-2.png', './img/header-3.png'];
+  var urls = ['./img/header.jpg', './img/header-2.jpg', './img/header-3.jpg'];
 
   var cout = 1;
   $('.header-main').css('background-image', 'linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)),url("' + urls[0] + '")');

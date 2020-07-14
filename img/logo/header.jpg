@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8" />
+<title>Compress Image - Compressnow</title>
+<meta name="keywords" content="picture,jpeg,png,gif" />
+<meta name="description" content="Tool that compress image online, for webpage optimization, to share on a social network or send email." />
+<meta property="og:site_name" content="Compressnow">
+<meta property="og:title" content="Compress Image online">
+<meta property="og:description" content="Tool that compress image online, for webpage optimization, to share on a social network or send email.">
+<meta property="og:image" content="https://compressnow.com/img/compress_now_icon.jpg">
+<link rel="canonical" href="https://compressnow.com/"/><link rel="shortcut icon" href="https://compressnow.com/favicon.ico" />
+<meta name="google-site-verification" content="x6gBdjtn4k3cVrpwbRqdQpBxZFWglLKYqjaw70Plsis" />
+<meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+<link rel="alternate" hreflang="en" href="https://compressnow.com/" />
+<link rel="alternate" hreflang="fr" href="https://compressnow.com/fr/" />
+<link rel="alternate" hreflang="it" href="https://compressnow.com/it/" />
+<link rel="alternate" hreflang="es" href="https://compressnow.com/sp/" />
+<link rel="alternate" hreflang="pt" href="https://compressnow.com/pt/" />
+<meta name="google" content="notranslate" />
+<style>/*! MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+/*css_page_2018.css */@font-face{font-family:'Ubuntu Condensed';src:local('Ubuntu Condensed'),local('Ubuntu-condensed'),local('Ubuntu'),url('https://compressnow.com/fonts/Ubuntu-condensed.woff2') format('woff2'),url('https://compressnow.com/fonts/Ubuntu-condensed.woff') format('woff'),url('https://compressnow.com/fonts/Ubuntu-condensed.ttf') format('truetype'),url('https://compressnow.com/fonts/Ubuntu-condensed.eot') format('embedded-opentype')}label.filebutton{overflow:hidden;position:relative;cursor:pointer}#slider_top .ui-slider-range{background:#ffc266}#slider_top .ui-state-default{border:1px solid #aaa;background:#fff}.s_img_page{float:left;color:#f80;font-size:.8em;margin:3px 10px 0 0;display:none}img{vertical-align:middle}select{font-size:1em}.flag_element_p{margin:0 10px 0 30px}#a_top{width:833px;height:20px;margin:5px 0 0 -10px;padding:5px 0 0 0}.weight_im1{width:174px;height:191px}.weight_im2{width:100px;height:97px}.weight_im_pos1{padding:50px 0 0 0}.weight_im_pos2{padding:100px 0 0 0}.uploaded_im_pos{padding:5px 0 0 0;width:220px;margin:0 auto}.red_txt{color:#f80;font-size:.7em}.info_img1,.info_img2{font-size:.8em;color:#f80;text-align:center}.info_img2{display:none}.weight_preview{margin:0;padding:0;height:30px}.preview_e1{cursor:pointer;font-size:1em;color:#33a8ff;margin:0 140px 0 80px}.preview_e2{font-size:2em;color:#33a8ff;margin:-12px 0 0 0}.preview_e3{cursor:pointer;font-size:1em;color:#33a8ff;margin:0 80px 0 0}.preview_e4{cursor:pointer;font-size:1em;color:#33a8ff;margin:0 40px 0 0}.increase_compression{color:#f80;font-size:.6em}#reduction_content{padding:10px 0 0 0}.reduction_1{cursor:pointer;color:#000;font-size:.8em;text-align:center;margin:5px 0 5px 0}.reduction_2{cursor:pointer;color:#33a8ff;font-size:.9em;text-align:center}.reduction_3{cursor:pointer;color:#33a8ff;font-size:2em;text-align:center;margin:-5px 0 5px 0}
+
+.t_size{font-size:1em;margin:5px 0 0 0;}
+
+.dl_box_right{
+width:100%;margin:0.2em 0 0 0;
+}
+
+.t_size_upload{font-size:1.1em}.message_error_t{margin:5px 0 0 0;font-size:.8em;color:#f80;width:645px;text-align:center}#content_0,#content_1{font-size:.9em}a.bt_d:link{font-family:arial,helvetica,sans-serif;font-size:.9em;font-weight:bold;text-decoration:underline;color:#000}a.bt_d:visited{font-family:arial,helvetica,sans-serif;font-size:.9em;font-weight:bold;text-decoration:underline;color:#000}a.bt_d:active{font-family:arial,helvetica,sans-serif;font-size:.9em;font-weight:bold;text-decoration:underline;color:#000}a.bt_d:hover{font-family:arial,helvetica,sans-serif;font-size:.9em;font-weight:bold;text-decoration:underline;color:#f00}a.l_c0:link{color:#000;text-decoration:underline;font-weight:normal;font-size:.9em}a.l_c0:active{color:#000;text-decoration:underline;font-weight:normal;font-size:.9em}a.l_c0:visited{color:#000;text-decoration:underline;font-weight:normal;font-size:.9em}a.l_c0:hover{color:#00f;text-decoration:underline;font-weight:normal;font-size:.9em}a.l_title:link{color:#fff;font-weight:bold;font-size:2em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);text-decoration:none}a.l_title:active{color:#fff;font-weight:bold;font-size:2em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);text-decoration:none}a.l_title:visited{color:#fff;font-weight:bold;font-size:2em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);text-decoration:none}a.l_title:hover{color:#ffef5e;font-weight:bold;font-size:2em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);text-decoration:none}.filebutton:hover{border:1px solid #7a7a7a}.filebutton{cursor:pointer;border:1px solid #999;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;padding:5px 8px;text-decoration:none;display:inline-block;text-shadow:1px 1px 0 rgba(255,255,255,0.3);font-weight:bold;color:#000;background-color:#fff;background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfcf));background-image:-webkit-linear-gradient(top,#fff,#cfcfcf);background-image:-moz-linear-gradient(top,#fff,#cfcfcf);background-image:-ms-linear-gradient(top,#fff,#cfcfcf);background-image:-o-linear-gradient(top,#fff,#cfcfcf);background-image:linear-gradient(to bottom,#fff,#cfcfcf);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF,endColorstr=#CFCFCF)}.filebutton:hover{border:1px solid #7a7a7a;background-color:#eee;background-image:-webkit-gradient(linear,left top,left bottom,from(#eee),to(#c7c7c7));background-image:-webkit-linear-gradient(top,#eee,#c7c7c7);background-image:-moz-linear-gradient(top,#eee,#c7c7c7);background-image:-ms-linear-gradient(top,#eee,#c7c7c7);background-image:-o-linear-gradient(top,#eee,#c7c7c7);background-image:linear-gradient(to bottom,#eee,#c7c7c7);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#EEEEEE,endColorstr=#C7C7C7)} label span input{z-index:999;line-height:0;font-size:50px;position:absolute;top:-2px;left:-700px;opacity:0;filter:alpha(opacity=0);-ms-filter:"alpha(opacity=0)";cursor:pointer;_cursor:hand;margin:0;padding:0}.bt_1{cursor:pointer;border:1px solid #999;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;padding:5px 8px;text-decoration:none;display:inline-block;text-shadow:1px 1px 0 rgba(255,255,255,0.3);font-weight:bold;color:#000;background-color:#fff;background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfcf));background-image:-webkit-linear-gradient(top,#fff,#cfcfcf);background-image:-moz-linear-gradient(top,#fff,#cfcfcf);background-image:-ms-linear-gradient(top,#fff,#cfcfcf);background-image:-o-linear-gradient(top,#fff,#cfcfcf);background-image:linear-gradient(to bottom,#fff,#cfcfcf);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF,endColorstr=#CFCFCF)}.bt_1:hover{border:1px solid #7a7a7a;background-color:#eee;background-image:-webkit-gradient(linear,left top,left bottom,from(#eee),to(#c7c7c7));background-image:-webkit-linear-gradient(top,#eee,#c7c7c7);background-image:-moz-linear-gradient(top,#eee,#c7c7c7);background-image:-ms-linear-gradient(top,#eee,#c7c7c7);background-image:-o-linear-gradient(top,#eee,#c7c7c7);background-image:linear-gradient(to bottom,#eee,#c7c7c7);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#EEEEEE,endColorstr=#C7C7C7)}.wrapper{width:980px;margin:0 auto 0 auto}.slider_level{margin:0;width:100%}.header,.footer{border-bottom:1px solid #ffa300;padding:5px 10px 5px 10px;
+background-color:#ffb533;-webkit-border-radius:3px;-webkit-border-bottom-right-radius:0;-moz-border-radius:3px;-moz-border-radius-bottomright:0;border-radius:3px;border-bottom-right-radius:0}.footer{text-align:center;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.middle{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:5px 10px 5px 10px;background-color:#e6e6e6}.title{color:#fff;font-weight:bold;font-size:2em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(0,0,0,0.3)}.f_left{float:left}.f_right{float:right}.ft_bt{font-size:.7em}.clr{clear:both}h1,h2,h3,h4,h5,.t_footer{font-weight:bold;display:inline;font-size:1.3em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);color:#fff}h2,h3,h4,h5{font-size:1.1em;color:#000;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);text-decoration:underline}
+.images_box_title0,.images_box_title1{
+
+
+font-weight:bold;font-family:'Ubuntu Condensed',sans-serif;font-size:1.1em;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);color:#999;
+text-decoration:none;text-align:center;
+
+margin:0.5em 0 0.2em 0;
+
+
+}.cp_level{float:right;margin:10px 2px 0 0;color:#f80;font-size:.8em}.counter_element{float:right;margin:5px 2px 0 0;color:#f80;font-size:.8em;display:none}.images_box_title1{font-size:1em}.top_feedback{width:600px}.container_feedback{background-color:#e6e6e6;width:600px;border:0 solid #000;text-align:center;margin:0 auto 0 auto;font-family:'Ubuntu Condensed',sans-serif}.feedback_title{font-family:'Ubuntu Condensed',sans-serif;font-size:1.1em;color:#808080}.textarea_feedback{width:400px;height:150px;text-align:left;font-size:1em}.t_footer{font-size:.9em;text-shadow:none;font-weight:normal}a.l_1:link{color:#fff;text-decoration:underline;font-weight:normal}a.l_1:active{color:#fff;text-decoration:underline;font-weight:normal}a.l_1:visited{color:#fff;text-decoration:underline;font-weight:normal}a.l_1:hover{color:#ffe766;text-decoration:underline;font-weight:normal}.wrapper_25{width:25%;margin:0}.dragdealer{position:relative;height:30px;background:#ffda99;border:2px solid #ffda99;margin:0;width:655px}.dragdealer .handle{position:absolute;top:0;left:0;cursor:pointer}.dragdealer .red-bar{width:100px;height:30px;color:#FFF;font-size:1em;line-height:30px;text-align:center;font-weight:bold;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;font-family:arial,helvetica,sans-serif;background-color:#f80}.dragdealer .disabled{background:#898989}.value{font-family:arial,helvetica,sans-serif;font-size:1.4em;text-shadow:-1px -1px 0 rgba(0,0,0,0.3)}.wrapper_left_1{width:660px;margin:0 0 0 10px;border:0 solid #000}.wrapper_99{width:99%;margin:0}.wrapper_gif_result{width:305px}.margin_0002{margin:0 0 0 2%}.margin_0110{margin:0 1% 1% 0}.margin_20000{margin:20px 0 0 0}.margin_00015{margin:0 0 0 15px}.margin_00020{margin:0 0 0 20px}.margin_5{margin:5px}.img_gif_result{width:200px;height:200px}
+.img_gif_result_large{width:300px;height:300px;overflow:auto}.img_gif_large{width:200px;height:200px}.gif_large{width:120px;height:120px;cursor:pointer}.border_d3{border:3px dashed #d3d3d3}.border_d3_canvas{border:3px dashed #ff4040}label,input{margin:0;padding:0}.middle_element{width:100%;margin:0 auto 0 auto;text-align:center} .bg_ff{background-color:#e6e6e6;padding:5px 0 10px 0}.ft_opt{font-size:.7em}.input_opt_w{width:30px}.im_0{width:160px;height:160px}#title_t0{font-size:.9em;color:#fff;text-shadow:none;font-weight:normal}.bottom_el_page{margin:20px 10px 15px 10px;padding:0;background-color:#fff;border:6px solid #e6e6e6}.box_sh{box-shadow:0 1px 4px rgba(0,0,0,0.27),0 0 40px rgba(0,0,0,0.06) inset;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.27),0 0 60px rgba(0,0,0,0.1) inset;-moz-box-shadow:0 1px 4px rgba(0,0,0,0.27),0 0 40px rgba(0,0,0,0.06) inset}
+
+#holder{margin:10px 0 10px 10px;float:left;width:300px;height:320px;overflow:auto;text-align:center;background-color:#fff;font-size:.9em}
+#holder.hover{border:6px dashed #0c0;background-color:#fff}#holder img{display:block;margin:0 auto}
+
+#compressed_result{border:6px solid #e6e6e6;margin:10px 10px 10px 0;float:right;width:300px}
+#compressed_result img{display:block;margin:0 auto}.compressed_img{width:220px;height:220px}#compress_button{margin:140px 0 10px 20px}
+
+
+.left_area{overflow:auto;background-color:#fff;min-height:280px;width:300px;border:6px dashed #b3b3b3;border:1px solid #000;
+
+
+height:370px;
+}
+.middle_area{float:left;margin:10px 0 0 18px;width:300px;border:0 dashed #b3b3b3}
+
+.right_area{
+width:300px;
+overflow:auto;background-color:#fff;
+min-height:270px;width:300px;border:6px solid #e6e6e6;
+
+height:370px;
+}
+
+
+
+.l_top1{border-top:1px dashed #fff;margin:20px 0 0 0}.l_top2{border-top:1px dashed #fff;margin:0 0 10px 0}.l_middle1{width:300px;margin:0;border-top:1px dashed #b3b3b3}
+
+.l_middle2{width:300px;margin:0 0 10px 0;border-top:1px dashed #fff;padding:15px 0 0 0;height:270px}
+.prev_txt{text-align:center;font-size:1.6em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);color:#33a8ff}.dd_content_bg{height:300px;width:300px;min-height:280px;overflow:auto;background-color:#fff}.dd_content{height:280px;width:250px;min-height:280px;overflow:auto;background-color:#d9d9d9}.d_gif_large{margin:120px 0 0 0;width:300px;background-color:#ff4040}.t_center{text-align:center}.ft_b{font-weight:bold}canvas{cursor:pointer}.area_canvas{clear:both;display:none}#options_compress p{font-size:.8em;line-height:1.4}#options_compress select,#options_compress input{padding:3px;border:1px solid #ccc;background:transparent;background-color:#e6e6e6;color:#662300;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;cursor:pointer;-webkit-box-shadow:0 1px 0 #ccc,0 -1px #fff inset;-moz-box-shadow:0 1px 0 #ccc,0 -1px #fff inset;box-shadow:0 1px 0 #ccc,0 -1px #fff inset;font-family:'Ubuntu Condensed',sans-serif}.options_element{padding:0 10px 5px 10px;background-color:#fff;border:6px solid #e6e6e6}.options_slider{width:80%;vertical-align:middle}.dd_t0{font-size:1.7em;font-weight:bold;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);color:#000;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);text-decoration:underline;text-decoration:none;text-align:center;margin:60px auto 0 auto}.s_bt_content{float:right;padding:7px 0 5px 10px;margin:-35px -10px 0 0;border:0;border-top:1px dashed #ffda99;-webkit-border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;background-color:#ffb533}.a_content_1{margin:100px 0 10px 5px;width:300px;height:250px}.a_content_2{margin:2px 0 15px 0;width:730px;height:90px}.ex_gif{width:444px;height:95px}.ex_loader{width:80px;height:80px}.gif_loader_b{width:80px;height:80px;padding:0;margin:50px auto 0 auto}.line_1{margin:5px 0 0x 0;border-bottom:1px solid #fff}.line_2{margin:0 0 10px 0;border-top:1px solid #d9d9d9}.i_textarea{width:445px;font-size:1em;padding:5px}.f_textarea{width:450px;height:150px;text-align:left;font-size:1em;padding:5px}.bg_d9d9d9{background-color:#d9d9d9}#read_more_options{display:none}
+
+@media(max-width:728px){.prev_txt{text-align:center;font-size:1.2em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);color:#33a8ff}.weight_im1{width:120px;height:131px}.weight_im2{width:80px;height:77px}
+
+#holder{width:300px;height:250px}
+.right_area{width:300px;height:250px}.compressed_img{width:220px;height:180px}}
+
+
+.share_img{border:0;vertical-align:middle}.share_img:hover{filter:invert(.2);-webkit-filter:invert(.2)}.cookie-message{font-size:1em;color:#fff;font-family:arial,helvetica,sans-serif;display:none;position:fixed;bottom:0;width:100%;right:0;padding:0;box-shadow:0 0 3px #ccc;z-index:99;border-top:1px solid #2a2c2f;border-bottom:1px solid #000;background-color:#45484d;background-image:-webkit-gradient(linear,left top,left bottom,from(#45484d),to(#000));background-image:-webkit-linear-gradient(top,#45484d,#000);background-image:-moz-linear-gradient(top,#45484d,#000);background-image:-ms-linear-gradient(top,#45484d,#000);background-image:-o-linear-gradient(top,#45484d,#000);background-image:linear-gradient(to bottom,#45484d,#000);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#45484d,endColorstr=#000000)} .cookie_left{font-size:.8em;margin:.3em 0 .3em 0;float:left}.cookie_right{font-size:.8em;float:right;margin:5px 20px 5px 0}#cookie_info{cursor:pointer;color:#669cff;text-decoration:underline}#cookie_info:hover{text-decoration:underline;color:#fff}.cookie_bt{cursor:pointer;color:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;font-size:1em;font-family:arial,helvetica,sans-serif;padding:2px 5px 2px 5px;text-decoration:none;display:inline-block;background-color:#4ba614;background-image:-webkit-gradient(linear,left top,left bottom,from(#4ba614),to(#008c00));background-image:-webkit-linear-gradient(top,#4ba614,#008c00);background-image:-moz-linear-gradient(top,#4ba614,#008c00);background-image:-ms-linear-gradient(top,#4ba614,#008c00);background-image:-o-linear-gradient(top,#4ba614,#008c00);background-image:linear-gradient(to bottom,#4ba614,#008c00);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#4ba614,endColorstr=#008c00)}.cookie_bt:hover{text-decoration:underline;background-color:#36780f;background-image:-webkit-gradient(linear,left top,left bottom,from(#36780f),to(#005900));background-image:-webkit-linear-gradient(top,#36780f,#005900);background-image:-moz-linear-gradient(top,#36780f,#005900);background-image:-ms-linear-gradient(top,#36780f,#005900);background-image:-o-linear-gradient(top,#36780f,#005900);background-image:linear-gradient(to bottom,#36780f,#005900);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#36780f,endColorstr=#005900)}.l_middle1{margin:0}
+.l_middle2{margin:0 auto 10px auto;padding:5px 5px 0 5px;}#holder{border:6px dashed #ccc}#holder.hover{border:6px dashed #ccc}
+.right_area{height:300px;width:300px;min-height:280px;overflow:auto;background-color:#fff;min-height:270px;width:300px;height:320px}#compressed_result{border:6px solid #e6e6e6}.less_border_dashed{border:3px dashed #b3b3b3}.less_border_simple{border:3px solid #e6e6e6}
+.buttons_settings{margin:0 auto 0 auto;border-top:1px dashed #b3b3b3;border-bottom:1px dashed #b3b3b3;padding:15px 0 15px 0;background-color:#ededed}.wl_1{margin:0;border-top:1px dashed #fff}#options_compress{margin:20px 10px 10px 10px}.el_top_settings{width:100%;margin:0;background-color:#ededed;border-top:1px dashed #b3b3b3;border-bottom:1px dashed #b3b3b3}.right_top_el{margin:15px 5px 0 0;float:right}.top_block{width:100%;margin:0}#device_website{display:none}.t_size,.t_size_upload{float:left;width:100%}
+
+@media(min-width:728px){.img_area_size{margin:5px auto 5px auto}
+
+.f_screen_area_1{cursor:pointer}.f_screen_area_1:hover{filter:invert(.3);-webkit-filter:invert(.3)}.bt_device_settings{margin:0;display:none}
+.middle_area{float:left;margin:10px 0 0 18px;width:320px;border:0 dashed #b3b3b3}.wrapper{width:1000px;margin:0 auto 0 auto}
+
+.left_area{overflow:auto;background-color:#fff;min-height:280px;width:300px;
+height:310px;
+
+height:360px;
+
+}
+
+#holder{width:300px;height:360px;}
+
+
+
+.compressed_img{width:270px;height:230px;position:relative;display:inline-block}.uploaded_im_pos{padding:5px 0 0 0;width:270px;margin:0 auto}
+
+.right_area{width:300px;height:340px;
+
+
+
+height:360px;
+}
+
+
+#cp_level_1{color:#f80;font-size:.9em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);text-align:right;width:25%}#cp_level_2{width:50%}#cp_level_3{font-size:2em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);color:#f80;width:25%}#counter_area,#s_bt_area,#title_t1,#a_top,#element_middle,#title_t0,#cp_value_txt,#foot_el1,#howto,#foot_el2{display:inline}#device_website,#device_bt{display:none}}
+
+@media(max-width:728px){.img_area_size{margin:0 auto 0 auto}.f_screen_area_1{cursor:pointer}.f_screen_area_1:hover{filter:invert(.3);-webkit-filter:invert(.3)}.middle_area{float:left;margin:0;padding:0}
+
+#element_middle{margin:0;padding:0}
+.left_area{overflow:auto;background-color:#fff;min-height:280px;width:300px;height:310px}
+#holder{width:300px;height:320px}.wrapper{width:330px;margin:0 auto 0 auto}.compressed_img{width:270px;height:210px;position:relative;display:inline-block}.uploaded_im_pos{padding:5px 0 0 0;width:270px;margin:0 auto}#cp_level_1{color:#f80;font-size:.9em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);text-align:right;width:5%}#cp_level_2{width:70%}#cp_level_3{font-size:2em;font-family:'Ubuntu Condensed',sans-serif;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);color:#f80;width:25%}
+
+#counter_area,#s_bt_area,#title_t1,#a_top,#title_t0,#cp_value_txt,#foot_el1,#howto,#foot_el2{display:none}
+
+
+#device_website,#device_bt{display:inline}}#howto{padding-left:0;list-style-position:inside}#howto li{font-size:.9em;margin:10px 0 10px 0}.how_to{font-weight:bold;font-family:'Ubuntu Condensed',sans-serif;font-size:1.4em;color:#000;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);text-decoration:underline}.footer_el{font-size:.8em;line-height:1.7em;margin:10px 0 10px 0} .q_a_table{border:0;width:100%;font-size:.8em;font-style:italic;margin:20px 0 20px 0}.news_info{padding:5px 10px 5px 10px;margin:0 auto 0 auto;background-color:#ffef5e;font-size:0.8em;color:#000;text-align:center;}
+/*! jQuery UI Licensed MIT */.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important;pointer-events:none}.ui-icon{display:inline-block;vertical-align:middle;margin-top:-.25em;position:relative;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-icon-block{left:50%;margin-left:-8px;display:block}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-slider{position:relative;text-align:left}.ui-slider .ui-slider-handle{position:absolute;z-index:2;width:1.2em;height:1.2em;cursor:default;-ms-touch-action:none;touch-action:none}.ui-slider .ui-slider-range{position:absolute;z-index:1;font-size:.7em;display:block;border:0;background-position:0 0}.ui-slider.ui-state-disabled .ui-slider-handle,.ui-slider.ui-state-disabled .ui-slider-range{filter:inherit}.ui-slider-horizontal{height:.8em}.ui-slider-horizontal .ui-slider-handle{top:-.3em;margin-left:-.6em}.ui-slider-horizontal .ui-slider-range{top:0;height:100%}.ui-slider-horizontal .ui-slider-range-min{left:0}.ui-slider-horizontal .ui-slider-range-max{right:0}.ui-slider-vertical{width:.8em;height:100px}.ui-slider-vertical .ui-slider-handle{left:-.3em;margin-left:0;margin-bottom:-.6em}.ui-slider-vertical .ui-slider-range{left:0;width:100%}.ui-slider-vertical .ui-slider-range-min{bottom:0}.ui-slider-vertical .ui-slider-range-max{top:0}.ui-widget{font-family:Arial,Helvetica,sans-serif;font-size:1em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Arial,Helvetica,sans-serif;font-size:1em}.ui-widget.ui-widget-content{border:1px solid #c5c5c5}.ui-widget-content{border:1px solid #ddd;background:#fff;color:#333}.ui-widget-content a{color:#333}.ui-widget-header{border:1px solid #ddd;background:#e9e9e9;color:#333;font-weight:bold}.ui-widget-header a{color:#333}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default,.ui-button,html .ui-button.ui-state-disabled:hover,html .ui-button.ui-state-disabled:active{border:1px solid #c5c5c5;background:#f6f6f6;font-weight:normal;color:#454545}.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited,a.ui-button,a:link.ui-button,a:visited.ui-button,.ui-button{color:#454545;text-decoration:none}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus,.ui-button:hover,.ui-button:focus{border:1px solid #ccc;background:#ededed;font-weight:normal;color:#2b2b2b}.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited,a.ui-button:hover,a.ui-button:focus{color:#2b2b2b;text-decoration:none}.ui-visual-focus{box-shadow:0 0 3px 1px rgb(94,158,214)}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active,a.ui-button:active,.ui-button:active,.ui-button.ui-state-active:hover{border:1px solid #003eff;background:#007fff;font-weight:normal;color:#fff}.ui-icon-background,.ui-state-active .ui-icon-background{border:#003eff;background-color:#fff}.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#fff;text-decoration:none}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #dad55e;background:#fffa90;color:#777620}.ui-state-checked{border:1px solid #dad55e;background:#fffa90}.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#777620}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #f1a899;background:#fddfdf;color:#5f3f3f}.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#5f3f3f}.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#5f3f3f}.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none}.ui-state-disabled .ui-icon{filter:Alpha(Opacity=35)}.ui-icon{width:16px;height:16px}.ui-icon,.ui-widget-content .ui-icon{background-image:url("images/ui-icons_444444_256x240.png")}.ui-widget-header .ui-icon{background-image:url("images/ui-icons_444444_256x240.png")}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon,.ui-button:hover .ui-icon,.ui-button:focus .ui-icon{background-image:url("images/ui-icons_555555_256x240.png")}.ui-state-active .ui-icon,.ui-button:active .ui-icon{background-image:url("images/ui-icons_ffffff_256x240.png")}.ui-state-highlight .ui-icon,.ui-button .ui-state-highlight.ui-icon{background-image:url("images/ui-icons_777620_256x240.png")}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url("images/ui-icons_cc0000_256x240.png")}.ui-button .ui-icon{background-image:url("images/ui-icons_777777_256x240.png")}.ui-icon-blank{background-position:16px 16px}.ui-icon-caret-1-n{background-position:0 0}.ui-icon-caret-1-ne{background-position:-16px 0}.ui-icon-caret-1-e{background-position:-32px 0}.ui-icon-caret-1-se{background-position:-48px 0}.ui-icon-caret-1-s{background-position:-65px 0}.ui-icon-caret-1-sw{background-position:-80px 0}.ui-icon-caret-1-w{background-position:-96px 0}.ui-icon-caret-1-nw{background-position:-112px 0}.ui-icon-caret-2-n-s{background-position:-128px 0}.ui-icon-caret-2-e-w{background-position:-144px 0}.ui-icon-triangle-1-n{background-position:0 -16px}.ui-icon-triangle-1-ne{background-position:-16px -16px}.ui-icon-triangle-1-e{background-position:-32px -16px}.ui-icon-triangle-1-se{background-position:-48px -16px}.ui-icon-triangle-1-s{background-position:-65px -16px}.ui-icon-triangle-1-sw{background-position:-80px -16px}.ui-icon-triangle-1-w{background-position:-96px -16px}.ui-icon-triangle-1-nw{background-position:-112px -16px}.ui-icon-triangle-2-n-s{background-position:-128px -16px}.ui-icon-triangle-2-e-w{background-position:-144px -16px}.ui-icon-arrow-1-n{background-position:0 -32px}.ui-icon-arrow-1-ne{background-position:-16px -32px}.ui-icon-arrow-1-e{background-position:-32px -32px}.ui-icon-arrow-1-se{background-position:-48px -32px}.ui-icon-arrow-1-s{background-position:-65px -32px}.ui-icon-arrow-1-sw{background-position:-80px -32px}.ui-icon-arrow-1-w{background-position:-96px -32px}.ui-icon-arrow-1-nw{background-position:-112px -32px}.ui-icon-arrow-2-n-s{background-position:-128px -32px}.ui-icon-arrow-2-ne-sw{background-position:-144px -32px}.ui-icon-arrow-2-e-w{background-position:-160px -32px}.ui-icon-arrow-2-se-nw{background-position:-176px -32px}.ui-icon-arrowstop-1-n{background-position:-192px -32px}.ui-icon-arrowstop-1-e{background-position:-208px -32px}.ui-icon-arrowstop-1-s{background-position:-224px -32px}.ui-icon-arrowstop-1-w{background-position:-240px -32px}.ui-icon-arrowthick-1-n{background-position:1px -48px}.ui-icon-arrowthick-1-ne{background-position:-16px -48px}.ui-icon-arrowthick-1-e{background-position:-32px -48px}.ui-icon-arrowthick-1-se{background-position:-48px -48px}.ui-icon-arrowthick-1-s{background-position:-64px -48px}.ui-icon-arrowthick-1-sw{background-position:-80px -48px}.ui-icon-arrowthick-1-w{background-position:-96px -48px}.ui-icon-arrowthick-1-nw{background-position:-112px -48px}.ui-icon-arrowthick-2-n-s{background-position:-128px -48px}.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px}.ui-icon-arrowthick-2-e-w{background-position:-160px -48px}.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px}.ui-icon-arrowthickstop-1-n{background-position:-192px -48px}.ui-icon-arrowthickstop-1-e{background-position:-208px -48px}.ui-icon-arrowthickstop-1-s{background-position:-224px -48px}.ui-icon-arrowthickstop-1-w{background-position:-240px -48px}.ui-icon-arrowreturnthick-1-w{background-position:0 -64px}.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px}.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px}.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px}.ui-icon-arrowreturn-1-w{background-position:-64px -64px}.ui-icon-arrowreturn-1-n{background-position:-80px -64px}.ui-icon-arrowreturn-1-e{background-position:-96px -64px}.ui-icon-arrowreturn-1-s{background-position:-112px -64px}.ui-icon-arrowrefresh-1-w{background-position:-128px -64px}.ui-icon-arrowrefresh-1-n{background-position:-144px -64px}.ui-icon-arrowrefresh-1-e{background-position:-160px -64px}.ui-icon-arrowrefresh-1-s{background-position:-176px -64px}.ui-icon-arrow-4{background-position:0 -80px}.ui-icon-arrow-4-diag{background-position:-16px -80px}.ui-icon-extlink{background-position:-32px -80px}.ui-icon-newwin{background-position:-48px -80px}.ui-icon-refresh{background-position:-64px -80px}.ui-icon-shuffle{background-position:-80px -80px}.ui-icon-transfer-e-w{background-position:-96px -80px}.ui-icon-transferthick-e-w{background-position:-112px -80px}.ui-icon-folder-collapsed{background-position:0 -96px}.ui-icon-folder-open{background-position:-16px -96px}.ui-icon-document{background-position:-32px -96px}.ui-icon-document-b{background-position:-48px -96px}.ui-icon-note{background-position:-64px -96px}.ui-icon-mail-closed{background-position:-80px -96px}.ui-icon-mail-open{background-position:-96px -96px}.ui-icon-suitcase{background-position:-112px -96px}.ui-icon-comment{background-position:-128px -96px}.ui-icon-person{background-position:-144px -96px}.ui-icon-print{background-position:-160px -96px}.ui-icon-trash{background-position:-176px -96px}.ui-icon-locked{background-position:-192px -96px}.ui-icon-unlocked{background-position:-208px -96px}.ui-icon-bookmark{background-position:-224px -96px}.ui-icon-tag{background-position:-240px -96px}.ui-icon-home{background-position:0 -112px}.ui-icon-flag{background-position:-16px -112px}.ui-icon-calendar{background-position:-32px -112px}.ui-icon-cart{background-position:-48px -112px}.ui-icon-pencil{background-position:-64px -112px}.ui-icon-clock{background-position:-80px -112px}.ui-icon-disk{background-position:-96px -112px}.ui-icon-calculator{background-position:-112px -112px}.ui-icon-zoomin{background-position:-128px -112px}.ui-icon-zoomout{background-position:-144px -112px}.ui-icon-search{background-position:-160px -112px}.ui-icon-wrench{background-position:-176px -112px}.ui-icon-gear{background-position:-192px -112px}.ui-icon-heart{background-position:-208px -112px}.ui-icon-star{background-position:-224px -112px}.ui-icon-link{background-position:-240px -112px}.ui-icon-cancel{background-position:0 -128px}.ui-icon-plus{background-position:-16px -128px}.ui-icon-plusthick{background-position:-32px -128px}.ui-icon-minus{background-position:-48px -128px}.ui-icon-minusthick{background-position:-64px -128px}.ui-icon-close{background-position:-80px -128px}.ui-icon-closethick{background-position:-96px -128px}.ui-icon-key{background-position:-112px -128px}.ui-icon-lightbulb{background-position:-128px -128px}.ui-icon-scissors{background-position:-144px -128px}.ui-icon-clipboard{background-position:-160px -128px}.ui-icon-copy{background-position:-176px -128px}.ui-icon-contact{background-position:-192px -128px}.ui-icon-image{background-position:-208px -128px}.ui-icon-video{background-position:-224px -128px}.ui-icon-script{background-position:-240px -128px}.ui-icon-alert{background-position:0 -144px}.ui-icon-info{background-position:-16px -144px}.ui-icon-notice{background-position:-32px -144px}.ui-icon-help{background-position:-48px -144px}.ui-icon-check{background-position:-64px -144px}.ui-icon-bullet{background-position:-80px -144px}.ui-icon-radio-on{background-position:-96px -144px}.ui-icon-radio-off{background-position:-112px -144px}.ui-icon-pin-w{background-position:-128px -144px}.ui-icon-pin-s{background-position:-144px -144px}.ui-icon-play{background-position:0 -160px}.ui-icon-pause{background-position:-16px -160px}.ui-icon-seek-next{background-position:-32px -160px}.ui-icon-seek-prev{background-position:-48px -160px}.ui-icon-seek-end{background-position:-64px -160px}.ui-icon-seek-start{background-position:-80px -160px}.ui-icon-seek-first{background-position:-80px -160px}.ui-icon-stop{background-position:-96px -160px}.ui-icon-eject{background-position:-112px -160px}.ui-icon-volume-off{background-position:-128px -160px}.ui-icon-volume-on{background-position:-144px -160px}.ui-icon-power{background-position:0 -176px}.ui-icon-signal-diag{background-position:-16px -176px}.ui-icon-signal{background-position:-32px -176px}.ui-icon-battery-0{background-position:-48px -176px}.ui-icon-battery-1{background-position:-64px -176px}.ui-icon-battery-2{background-position:-80px -176px}.ui-icon-battery-3{background-position:-96px -176px}.ui-icon-circle-plus{background-position:0 -192px}.ui-icon-circle-minus{background-position:-16px -192px}.ui-icon-circle-close{background-position:-32px -192px}.ui-icon-circle-triangle-e{background-position:-48px -192px}.ui-icon-circle-triangle-s{background-position:-64px -192px}.ui-icon-circle-triangle-w{background-position:-80px -192px}.ui-icon-circle-triangle-n{background-position:-96px -192px}.ui-icon-circle-arrow-e{background-position:-112px -192px}.ui-icon-circle-arrow-s{background-position:-128px -192px}.ui-icon-circle-arrow-w{background-position:-144px -192px}.ui-icon-circle-arrow-n{background-position:-160px -192px}.ui-icon-circle-zoomin{background-position:-176px -192px}.ui-icon-circle-zoomout{background-position:-192px -192px}.ui-icon-circle-check{background-position:-208px -192px}.ui-icon-circlesmall-plus{background-position:0 -208px}.ui-icon-circlesmall-minus{background-position:-16px -208px}.ui-icon-circlesmall-close{background-position:-32px -208px}.ui-icon-squaresmall-plus{background-position:-48px -208px}.ui-icon-squaresmall-minus{background-position:-64px -208px}.ui-icon-squaresmall-close{background-position:-80px -208px}.ui-icon-grip-dotted-vertical{background-position:0 -224px}.ui-icon-grip-dotted-horizontal{background-position:-16px -224px}.ui-icon-grip-solid-vertical{background-position:-32px -224px}.ui-icon-grip-solid-horizontal{background-position:-48px -224px}.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px}.ui-icon-grip-diagonal-se{background-position:-80px -224px}.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{border-top-left-radius:3px}.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{border-top-right-radius:3px}.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{border-bottom-left-radius:3px}.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-bottom-right-radius:3px}.ui-widget-overlay{background:#aaa;opacity:.3;filter:Alpha(Opacity=30)}.ui-widget-shadow{-webkit-box-shadow:0 0 5px #666;box-shadow:0 0 5px #666}
+/*nice select*/.nice-select{-webkit-tap-highlight-color:transparent;background-color:#fff;border-radius:5px;border:solid 1px #e8e8e8;box-sizing:border-box;clear:both;cursor:pointer;display:block;float:left;font-family:inherit;font-size:.9em;font-weight:normal;height:42px;line-height:40px;padding-left:10px;padding-right:25px;outline:0;position:relative;text-align:left!important;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;white-space:nowrap;width:auto}.nice-select:hover{border-color:#dbdbdb}.nice-select:active,.nice-select.open,.nice-select:focus{border-color:#999}.nice-select:after{border-bottom:2px solid #999;border-right:2px solid #999;content:'';display:block;height:5px;margin-top:-4px;pointer-events:none;position:absolute;right:12px;top:50%;-webkit-transform-origin:66% 66%;-ms-transform-origin:66% 66%;transform-origin:66% 66%;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out;width:5px}.nice-select.open:after{-webkit-transform:rotate(-135deg);-ms-transform:rotate(-135deg);transform:rotate(-135deg)}.nice-select.open .list{opacity:1;pointer-events:auto;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}.nice-select.disabled{border-color:#ededed;color:#999;pointer-events:none}.nice-select.disabled:after{border-color:#ccc}.nice-select.wide{width:100%}.nice-select.wide .list{left:0!important;right:0!important}.nice-select.right{float:right}.nice-select.right .list{left:auto;right:0}.nice-select.small{font-size:.9em;height:26px;line-height:24px}.nice-select.small:after{height:4px;width:4px}.nice-select.small .option{line-height:24px;min-height:24px}.nice-select .list{background-color:#fff;border-radius:5px;box-shadow:0 0 0 1px rgba(68,68,68,0.11);box-sizing:border-box;margin-top:4px;opacity:0;overflow:hidden;padding:0;pointer-events:none;position:absolute;top:100%;left:0;-webkit-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0;-webkit-transform:scale(0.75) translateY(-21px);-ms-transform:scale(0.75) translateY(-21px);transform:scale(0.75) translateY(-21px);-webkit-transition:all .2s cubic-bezier(0.5,0,0,1.25),opacity .15s ease-out;transition:all .2s cubic-bezier(0.5,0,0,1.25),opacity .15s ease-out;z-index:9}.nice-select .list:hover .option:not(:hover){background-color:transparent!important}.nice-select .option{cursor:pointer;font-weight:400;line-height:40px;list-style:none;min-height:40px;outline:0;padding-left:10px;padding-right:20px;text-align:left;-webkit-transition:all .2s;transition:all .2s}.nice-select .option:hover,.nice-select .option.focus,.nice-select .option.selected.focus{background-color:#f6f6f6}.nice-select .option.selected{font-weight:bold}.nice-select .option.disabled{background-color:transparent;color:#999;cursor:default}.no-csspointerevents .nice-select .list{display:none}.no-csspointerevents .nice-select.open .list{display:block}
+.example_responsive_1 { width: 300px; height: 250px;margin:0 auto 0 auto;text-align:center;  }
+@media(max-width: 728px) {
+/*.weight_preview{height:1px;}*/
+.wl_1{margin:0;border:none;}
+.middle_area{margin:0 0 0 0;width:100%;border:0px solid #000000}
+.l_middle2{width:300px;height:250px;margin:1em auto 1em auto;text-align:center;padding:0;border:0px solid #ff0000;}
+#set_bt{
+display:none; 
+}
+#element_middle{
+display:visible;
+}
+ /*.example_responsive_1 { display:none;  } 
+ */
+ 
+ }
+
+@media(max-width: 400px) { .example_responsive_1 { display:none;  } }
+
+
+
+.mybt {
+	
+	border-radius:1em;
+	background-color: #ffb533; 
+  border: none;
+  color: white;
+  padding: 0.5em 1em 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  outline:none;
+  width:140px;
+}
+.mybt:hover {
+	color:#FFEF5E;
+}
+.mybt:active {
+	
+}
+.mybt span input{z-index:999;line-height:0;font-size:50px;position:absolute;top:-2px;left:-700px;opacity:0;filter:alpha(opacity=0);-ms-filter:"alpha(opacity=0)";cursor:pointer;_cursor:hand;margin:0;padding:0}
+
+.file-input-wrapper {
+ 
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.file-input-wrapper>input[type="file"] {
+  font-size: 1em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-input-wrapper>.btn-file-input {
+ border-radius:1em;
+	background-color: #ffb533;
+	cursor: pointer;
+  border: none;
+  color: white;
+  width:140px;
+  padding: 0.5em 1em 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  outline:none;
+}
+
+.file-input-wrapper:hover>.btn-file-input {
+ color:#FFEF5E;
+ 
+}
+
+.left_bt_middle{
+width:45%;float:left;margin:0 0 0 0.5em;border:0px solid #000000;
+}
+.right_bt_middle{
+width:45%;float:right;margin:0 0.3em 0 0;border:0px solid #000000;
+}
+@media(max-width: 728px) {
+ .mybt {font-size: 0.7em;}
+ .file-input-wrapper>.btn-file-input {
+  font-size: 0.7em;}
+}
+
+</style></head>
+<body>
+<div id="lg_choice_top"></div>
+
+
+<div id="page_element_1" class="header wrapper" style="padding:5px 0 5px 0;">
+	<div class="f_left" style="margin:0 0 0 10px;">&nbsp;<a href="https://compressnow.com" class="l_title">Compress<span style="color:#FFEF5E;">now</span></a> 
+			<span id="title_t0">Help to reduce the weight of <span style="color:#FFEF5E;font-style:italic;text-transform:uppercase;">IMAGES</span>.</span> 
+	</div> 	
+	<div id="flag_element" class="f_right flag_element_p">	
+			<div> 
+			<select id="lg_area" class="small">
+				<option value="" selected >English</option>
+				<option value="fr">French</option>
+				<option value="it">Italian</option>
+				<option value="es">Spanish</option>
+				<option value="pt">Portuguese</option>
+							</select>
+			</div> 
+	
+	
+	
+	</div> 
+	<div id="title_t1" class="f_right"><h1>Compress Image Online</h1></div> 	
+	<div class="clr"></div>	
+</div>
+
+<div id="page_element_2" class="middle wrapper" style="padding:0;">
+	
+	<div class="right_top_el">		
+			<div id="s_bt_area">	
+								<div id="s_img" class="s_img_page">
+						<img alt="" src="https://compressnow.com/img/i_s_en.png" />					</div>
+						
+					<div id="bt_fb"  style="margin:0 5px 0 0;float:left;margin:0 10px 0 0;">
+						<a href="https://www.facebook.com/sharer/sharer.php?u=https://compressnow.com&t=Compress image"
+   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+   target="_blank" title="Share on Facebook"><img src="https://compressnow.com/img/facebook-share.png" alt="" class="share_img" /></a>						
+					</div>
+				
+					<div id="bt_tw"  style="margin:0;float:left;margin:0 10px 0 0;">
+						<a  onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" href="https://twitter.com/intent/tweet?url=https://compressnow.com&text=Compress%20image%20with&original_referer="><img src="https://compressnow.com/img/twitter-share.png" alt="" class="share_img"  /></a>					
+					
+					</div>
+					
+					<div id="counter_area" class="counter_element" style="float:left;">
+						<span id="counter"></span><span id="counter_txt"></span>
+					</div>
+				<div class="clr"></div>		
+			</div>
+	</div>
+	<div class="clr"></div>	
+	
+	<div id="left_place" class="f_left wrapper_left_1 top_block">
+
+			<div id="device_website">
+				<div id="device_bt" class="bt_device_settings">		
+										<div class="left_bt_middle">
+						
+<div class="file-input-wrapper">
+    <button class="btn-file-input">UPLOAD</button>
+    <input type="file" id="picture00_top" multiple="" name="i0" onchange="$(this).upload_content();" value="" />
+  </div>
+					</div>
+					 <div class="right_bt_middle">
+						<button class="mybt"  id="compress_bt_top">COMPRESS</button>					</div>	
+					<div class="clr"></div>	
+					
+				</div>
+			</div>	
+			<div class="l_top1"></div>
+			<div class="el_top_settings">
+				<table style="border:0;width:100%;">
+					<tr>
+					<td id="cp_level_1">
+					<span id="cp_value_txt">Compression level</span>&nbsp;&nbsp;
+					</td>
+					<td id="cp_level_2">
+					<div id="slider_top" class="slider_level"></div>
+					</td>
+					<td id="cp_level_3">
+					&nbsp;&nbsp;<span id="amount"></span>%
+					</td>
+					</tr>
+				</table>
+			</div>
+			<div class="l_top2"></div>
+			<div id="various_message" class="info_img1"></div>
+			<div class="weight_preview">
+				<div id="image_weight_preview"></div>
+			</div>
+			<div id="holder" class="left_area box_sh">
+				<div id="o_images" class="images_box_title0">ORIGINAL IMAGES <small>(jpg,gif,png)</small></div>
+				<div id="compress_image_weight_1" class="weight_im_pos1">
+				<img alt="" id="im_result_upload" title="Image to compress" src="https://compressnow.com/img/compress_image_weight_left_en.png" /></div>
+				<div id="content_0"></div>
+			</div>
+			<div id="element_middle" class="middle_area">
+				<div class="wl_1"></div>
+				<div id="set_bt" class="buttons_settings">
+	
+					
+					
+					<div class="left_bt_middle">
+						<div class="file-input-wrapper">
+    <button class="btn-file-input">UPLOAD</button>
+    <input type="file" id="picture00" multiple="" name="i0" onchange="$(this).upload_content();" value="" />
+  </div>					</div>
+					<div class="right_bt_middle">
+						<button class="mybt"  id="compress_bt">COMPRESS</button>					</div>	
+					<div class="clr"></div>	
+				</div>
+				<div class="wl_1"></div>
+								<div id="element_middle1" class="l_middle2">
+			
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle example_responsive_1"
+     style="display:inline-block"
+     data-ad-client="ca-pub-2797137122235082"
+     data-ad-slot="6275811462"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+				</div>
+			</div>		
+			<div id="compressed_result" class="right_area box_sh">
+				<div id="c_images" class="images_box_title1">COMPRESS RESULT</div>
+				
+								<div style="margin:0 auto 0 auto;text-align:center;">
+					<div id="compress_image_weight_2" class="weight_im_pos2"><img  alt="" title="Compressed image" id="im_result_compress" src="https://compressnow.com/img/compress_image_weight_r.png" /></div>
+					<div id="content_1"></div>
+					<span id="dl_1" style="display:none;"></span>
+				
+					<div id="reduction_t"></div>
+					<div id="info_compressed_im"  class="info_img2"></div>
+				</div>
+				
+			</div>	
+			
+			<div class="clr"></div>	
+			<input type="hidden" id="s0_0" value="0" /> <input type="hidden" id="s0_1" value="0" /> <input type="hidden" id="compress_quality" value="20" /><input type="hidden" id="compress_validate" value="off" /> <input type="hidden" id="max_dnd" value="0" /> <input type="hidden" id="max_image_size_upload" value="0" /> <input type="hidden" id="max_image_size_upload_dnd" value="0" /> <input type="hidden" id="max_mb_dnd" value="0" /> <input type="hidden" id="max_kb" value="0" /> <input type="hidden" id="max_mb" value="0" /> <input type="hidden" id="dnd_size_images" value="0" /> <input type="hidden" id="dnd_size_images_all" value="0" /> <input type="hidden" id="dnd_current_value" value="0" /> <input type="hidden" id="loaded_from_what" value="" /> 	
+			
+			
+			<input type="hidden" id="is_it_ie" value="no" />
+			<input type="hidden" id="lg_choice"  value="en" />			
+			
+			
+			
+			
+			
+			<div class="clr"></div>	
+			
+				
+			<div class="bottom_el_page box_sh">
+			<div id="options_compress">	
+				    
+			
+					
+			<div id="foot_el1" class="how_to">How to compress images easily in 3 steps ?</div>	
+					
+			<ol id="howto">
+                <li>Select up to 10 images at a time from your desktop computer or device. Or just drag and drop files to the drop area.</li>
+                <li>Select a compression level (%), then activate the compression with the button.</li>
+                <li>Download compressed images one by one or get the ZIP files.</li>
+            </ol>			
+			
+			<div id="foot_el2">
+			
+			<table class="q_a_table">
+			<tr>
+			<td>
+			<b>Q</b> : What is the size limit for images ?<br />
+			<b>A</b> : You can upload image up to <span style="color:#ff8800;">9 Mb = 9000 Kb</span>
+			</td>
+			<td>
+			<b>Q</b> : Which image extension can you compress ?<br />
+			<b>A</b> : JPG, JPEG, GIF, PNG
+			</td>
+			<td>
+			<b>Q</b> : Are images stored ?<br />
+			<b>A</b> : No, they are deleted each 30 minutes
+			</td>
+			</tr>
+			</table>
+			
+			
+			
+			</div>
+			<div id="foot_el3" class="footer_el">
+			 It could be helpful to reduce the weight of images, in order to use it on a website for example.
+					   The webpage will <span style="color:#ff8800;">load faster</span>, and it saves bandwidth. Or for example, <span style="color:#ff8800;">just before sending an email you can compress image</span>, 
+					   or just before sharing it on a social network. This tool does not keep png & gif transparency when compressing.
+			
+			</div>
+				
+				
+					  
+		 	
+					   
+						    
+			</div>
+			
+			
+			</div>	
+			
+			
+			
+	</div>
+	
+	<div class="clr"></div>
+</div>
+<div id="page_element_3"  class="footer wrapper" style="padding:5px 0 5px 0;">
+	<div>
+	<span class="t_footer">&copy; 2020 - Compressnow.com - V4.0 
+	- <a class="l_1" target="_blank"  href="https://compressnow.com/contact.php">Contact</a> 
+	-  <a class="l_1"  target="_blank"  href="https://compressnow.com/privacy.php">Cookies - Privacy</a>
+	</span>
+	</div> 
+</div>	
+<div id="content_cookie_1"></div>
+<div id="message_page"></div>
+<img alt="" src="https://whos.amung.us/swidget/z37id3t34bdt.png" title="" style="width:0;height:0;border:0;">
+<script type="text/javascript" src="https://compressnow.com/main_0520_5.js"></script></body>
+</html>
