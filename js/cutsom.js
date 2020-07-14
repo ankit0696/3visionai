@@ -127,3 +127,16 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #fff }";
   document.body.appendChild(css);
 };
+
+
+$(document).ready(function() {
+  var urls = ['./img/header.png', './img/header-2.png', './img/header-3.png'];
+
+  var cout = 1;
+  $('.header-main').css('background-image', 'linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)),url("' + urls[0] + '")');
+  setInterval(function() {
+    $('.header-main').css('background-image', 'linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)),url("' + urls[cout] + '")');
+    cout == urls.length-1 ? cout = 0 : cout++;
+  }, 5000);
+
+});
