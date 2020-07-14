@@ -1973,14 +1973,23 @@ div.watch{
   color: #333;
 }
 
-.header-retail {
+.header-playbook {
   height: 90vh;
-  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.1), rgba(94, 94, 94, 0.3)), url("../img/industry/retail.jpg");
+ 
   display: flex;
   /* flex-flow: column;
   transition: all ease 0.3s;
   animation: breath 20s ease;
   animation-iteration-count: infinite; */
+ }
+ .manufacturing-bg {
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.1), rgba(94, 94, 94, 0.3)), url("../img/playbook/header/manufacturing.png");
+  background-size: cover;
+ }
+
+ .smart-bg {
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.1), rgba(94, 94, 94, 0.3)), url("../img/playbook/header/smart-cities.png");
+  background-size: cover;
  }
   @media (max-width: 37.5em) {
     .header-main {
@@ -1996,7 +2005,7 @@ div.watch{
 
 .industry-content{
   max-width: 70rem;
-  background: rgba(255, 170, 52, 0.78);
+  background: rgba(255, 170, 52, 0.9);
   color: #f9f9f9;
 }
 
