@@ -310,19 +310,44 @@ color: #ffaa34 ;
 
 .header-main {
   height: 90vh;
-  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)), url("../img/header.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
   flex-flow: column;
   transition: all ease 0.3s;
-  animation: breath 20s ease;
-  animation-iteration-count: infinite; }
+ }
   @media (max-width: 68.5em) {
-    .header-main {
-      animation: none; } }
+    .slides {
+      animation: none !important;
+    background-size: cover !important; } }
 
+      .slides{
+        background-size: 100% auto;
+        animation: breath 20s ease;
+        animation-iteration-count: infinite;
+      }
+.slide-1{
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)), url("../img/header.jpg"); 
+
+}
+
+.slide-2 {
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)), url("../img/digital-haccp-compressed.jpg");
+  background-size: cover;
+}
+.slide-3 {
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)), url("../img/safe-return-compressed.jpg");
+  background-size: cover;
+}
+.slide-4 {
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)), url("../img/work-for-compressed.jpg");
+  background-size: cover;
+}
+.slide-5 {
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.5), rgba(94, 94, 94, 0.3)), url("../img/surviellence-compressed.jpg");
+  background-size: cover;
+}
 .header-about {
   display: flex;
   flex-flow: column;
@@ -332,7 +357,11 @@ color: #ffaa34 ;
     margin-top: 20rem;
     margin-bottom: 9rem;
     color: #f9f9f9;
-    text-shadow: none; }
+    text-shadow: none;
+}
+.header-about .banner-content{
+  height: auto;
+}
 
 section {
   padding: 8rem 0; }
@@ -1801,11 +1830,12 @@ hr {
     background-size: 100% auto; } }
 
 .banner-content {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: #ffffff;
+  height: 90vh;
   flex-grow: 1; }
   .banner-content .banner-title {
     font-size: 6rem;
@@ -1821,7 +1851,25 @@ hr {
     text-align: center;
     margin-bottom: 5.5rem;
     text-shadow: 2px 1px 20px #000000;
-    max-width: 70rem; }
+    max-width: 70rem;
+    animation-name: fadeInUpSD;
+    animation-duration: 1s; }
+
+    .light-bg{
+      background: rgba(255, 170, 52, 0.6) !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      
+    }
+    
+@media (min-width: 992px) {
+  .light-bg{
+    width: 60rem !important;
+    height: 25rem ;
+  }
+}
 
 .vision-intelligence {
   background-color: #f9f9f9;
@@ -2066,10 +2114,25 @@ div.watch{
   text-align: center;
 }
 
+.heading-title-secondary{
+  font-size: 6rem;
+  margin: auto;
+  width: fit-content;
+  line-height: 6.5rem;
+  font-family: "Proxima-bold", Arial, sans-serif;
+  padding-top: 3rem;
+  text-align: center;
+}
 
 .para-title{
   text-align: center;
   font-size: 1.6rem;
+  padding: 2rem 7rem 4rem 7rem;
+}
+
+.para-title-secondary{
+  text-align: center;
+  font-size: 2rem;
   padding: 2rem 7rem 4rem 7rem;
 }
 
@@ -2127,4 +2190,18 @@ ul.dropdown li a:hover{
 
 .team-card img {
   background: #fff;
+}
+
+@keyframes fadeInUpSD {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }

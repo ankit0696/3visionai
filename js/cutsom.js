@@ -67,7 +67,18 @@ $(document).ready(function(){
       // instead of a settings object
     ]
   });
-      
+  $('.banner-slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    arrows:false,
+    autoplaySpeed: 4000,
+    autoplay:true,
+    pauseOnHover:false,
+    pauseOnFocus:false
+
+  });
 });
 
 
@@ -140,3 +151,4 @@ window.onload = function() {
 //   }, 5000);
 
 // });
+
