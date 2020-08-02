@@ -1910,7 +1910,11 @@ hr {
   text-align: center; }
   .partner-logo img {
     height: 13rem;
-    margin: 6rem 2.5rem 0 2.5rem; }
+    margin: 6rem 2.5rem 0 2.5rem; 
+    -webkit-box-shadow: 10px 10px 38px -6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 38px -6px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 38px -6px rgba(0,0,0,0.1);
+  }
 
     .integration-logo{
       text-align: center;
@@ -1918,6 +1922,7 @@ hr {
 .integration-logo img{
   height: 9rem;
   margin: 6rem 2.5rem 0 2.5rem;  
+
 }
 
 .get-started {
@@ -2086,6 +2091,14 @@ div.watch{
   background: linear-gradient(to bottom, rgba(95, 95, 95, 0.1), rgba(94, 94, 94, 0.3)), url("../img/playbook/header/smart-cities.png");
   background-size: cover;
  }
+ .food-bg {
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.1), rgba(94, 94, 94, 0.3)), url("../img/playbook/header/food.png");
+  background-size: cover;
+ }
+ .healthcare-bg {
+  background: linear-gradient(to bottom, rgba(95, 95, 95, 0.1), rgba(94, 94, 94, 0.3)), url("../img/playbook/header/health.png");
+  background-size: cover;
+ }
   @media (max-width: 37.5em) {
     .header-main {
       animation: none; } }
@@ -2099,9 +2112,10 @@ div.watch{
 }
 
 .industry-content{
-  max-width: 70rem;
+  max-width: 72rem;
   background: rgba(255, 170, 52, 0.9);
   color: #f9f9f9;
+  padding: 3rem;
 }
 
 .heading-title {
@@ -2110,7 +2124,7 @@ div.watch{
   width: fit-content;
   line-height: 6.5rem;
   font-family: "Proxima-bold", Arial, sans-serif;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
   text-align: center;
 }
 
