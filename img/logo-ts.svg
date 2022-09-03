@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="268" height="36" viewBox="0 0 268 36">
-    <defs>
-        <linearGradient id="prefix__a" x1="2.671%" x2="71.215%" y1="71.388%" y2="71.388%">
-            <stop offset="0%" stop-color="#FDC836"/>
-            <stop offset="100%" stop-color="#FF8900"/>
-        </linearGradient>
-    </defs>
-    <text fill="url(#prefix__a)" fill-rule="evenodd" font-family="ProximaNova-Bold, Proxima Nova" font-size="40" font-weight="bold" transform="translate(-41 -41)">
-        <tspan x="40" y="69">Thinking Stack</tspan>
-    </text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="36" viewBox="0 0 268 36"><defs><linearGradient id="prefix__a" x1="2.671%" x2="71.215%" y1="71.388%" y2="71.388%"><stop offset="0%" stop-color="#FDC836"/><stop offset="100%" stop-color="#FF8900"/></linearGradient></defs><text fill="url(#prefix__a)" fill-rule="evenodd" font-family="ProximaNova-Bold, Proxima Nova" font-size="40" font-weight="bold" transform="translate(-41 -41)"><tspan x="40" y="69">Thinking Stack</tspan></text></svg>
